@@ -1,2 +1,155 @@
-print("Hello from lesson 2")
+# print("Hello from lesson 2")
+
+# for i in range(500):
+#     print("I will not sling muds at my friends again")
+
+
+# print("Hello")
+# for outer in range(5):
+#     print("la la la")
+#     for inner in range(2):
+#         print("ba ba ba")
+#     print("cha cha cha")
+# print("bye") 
+
+
+# for i in range(0, 21):
+#     print(i)
+
+
+# for i in range(1, 31):
+#     print(i)
+
+# for i in range(2, 25, 2):
+#     print(i)
+
+
+# counter = 0
+# while counter < 21:
+#     print(counter)
+#     counter += 1
+
+
+# count = 1
+# while count < 31:
+#     print(count)
+#     count += 1
+
+# counts = 2
+# while counts < 25:
+#     print(counts)
+#     counts += 1
+
+
+# counting = 1
+# while counting <= 10:
+#     if counting == 5:
+#         break
+#     print(counting)
+#     counting += 1
+
+
+
+# counting = 1
+# while counting < 10:
+#     while counting == 5:
+#         break
+#     else:
+#         print(counting)
+#         counting += 1
+
+
+# no = 1
+# while no != 11:
+#     print(no)
+#     no += 1
+# else:
+#     print("count has reached 10")
+
+
+# no = 1
+# while no != 11:
+#     print(no)
+#     no += 1
+#     if no == 5:
+#         break
+# else:
+#     print("count has reached 10")
+
+# topping = "Here are your toppings on your pizza: "
+# while True:
+#     item = str(input("What topping do you want pizza? Name them one by one.If thats all, Type 'END'  :"))
+#     if item.lower() == "End".lower():
+#         break
+#     topping += ", " + item
+
+# print(topping)
+
+
+score = 0
+while True:
+    
+
+
+    for i in range(5):
+        if i != 4:
+            answer = input("If a bat and a baseball bat cost $1.10, and the baseball bat is $1 more than the bat, how much is the bat?")
+
+            if answer == "$0.05" or answer == "5¢" or answer == "5 cents" or answer == "five cents" or answer == "5 cent" or answer == "five cent":
+                print("correct!")
+                score += 1
+                break
+            else:
+                print("That is wrong! Try again")
+
+        else:
+            print("You have answersed to many times. Please proceed to the next question")
+            break
+        
+
+    
+            
+        
+
+   
+
+    for i in range(5):
+        if i != 4:
+            answer = input("If 5 machine in 5 minutes prints 5 paper, how long does it takes for 100 machines to print 100 paper?")
+
+            if answer == "5" or answer == "five":
+                print("correct!")
+                score += 1
+                break
+            else:
+                print("That is wrong! Try again")
+
+        else:
+            print("You have answersed to many times. Please proceed to the next question")
+            break
+
+
+
+
+    
+
+    for i in range(5):
+        if i != 4:
+            answer = input("There is a lilypad in your pond, and it doubles everyday. At day 50, the lilypad covered the entire pond.How many days does it take the lilypad to cover half the pond?")
+
+            if answer == "49" or answer == "fourty-nine":
+                print("correct!")
+                score += 1
+                break
+            else:
+                print("That is wrong! Try again")
+
+        else:
+            print("You have answersed to many times. Please proceed to the next question")
+            break
+
+
+    print("Your score is" + str(score))
+
+
 
