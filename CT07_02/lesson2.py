@@ -199,4 +199,7 @@ while True:
 
 
 Question = "What is for breakfast? = "
-answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl sSa"
+answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl Sauce"
+guess = input(Question)
+while guess != answer:
+    print("Wrong! Are you ")
