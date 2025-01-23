@@ -1,4 +1,5 @@
 # print("Hello from lesson 3")
+import time
 
 # Question = "What is for breakfast? = "
 # answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl Sauce"
@@ -8,3 +9,7 @@
 #     guess = input(Question)
 
 # print("Finally correct. HAIYAAA why you take so long?????????Stooopid")
+
+
+
+
