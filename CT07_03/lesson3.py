@@ -20,3 +20,4 @@ while CountDown != 0:
 print("Throw Big boy down!!")
 
 
+time = input("")
