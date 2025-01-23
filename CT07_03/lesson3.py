@@ -20,11 +20,14 @@ import time
 # print("Throw Big boy down!!")
 
 
-timing = int(input("How long do you want to study? Minutes = ")) * 60
-while timing != 0:
-    print(str(timing) + " second left bruh.......")
-    timing -= 1
-    time.sleep(1)
-print("Time is up")
+# timing = int(input("How long do you want to study? Minutes = ")) * 60
+# while timing != 0:
+#     print(str(timing) + " second left bruh.......")
+#     timing -= 1
+#     time.sleep(1)
+# print("Time is up")
 
-question = float(input("How much do you save today after in school, eating recess, eating lunch, buy football card, betting with your friends, eating dinner, going to the moviepaying money to have some rest, wasting the aircon electricity?"))
+saving = 0
+while saving < 100:
+    question = float(input("How much do you save today after in school, eating recess, eating lunch, buy football card, betting with your friends, eating dinner, going to the moviepaying money to have some rest, wasting the aircon electricity?"))
+    
