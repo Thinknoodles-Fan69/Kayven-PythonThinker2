@@ -12,4 +12,6 @@ import time
 
 
 
-CountDown = 
+CountDown = 10
+while CountDown != 0:
+    
