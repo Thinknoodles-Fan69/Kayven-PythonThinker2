@@ -38,9 +38,9 @@ import random
 lives = 3
 question = 1
 while question != 15:
-    1 = random.randint(2, 20)
-    2 = random.randint(2, 20)
-    ask = input("What is " (1) + "x " + (2) )
+    Num = random.randint(2, 20)
+    Num1 = random.randint(2, 20)
+    ask = input("What is " (Num) + "x " + (Num1) + "" )
     
 
 
