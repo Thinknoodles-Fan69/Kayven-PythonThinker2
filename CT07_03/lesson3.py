@@ -32,4 +32,5 @@ while saving < 100:
     question = float(input("How much do you save today after in school, eating recess, eating lunch, buying football card, betting with your friends, eating dinner, going to the movie, paying money to have some rest, wasting the aircon electricity?"))
     saving += question
 
-print("You finally after 69420 lives saved $100 and more! WHy u waste all your money and when into debt bruh. You should lister to your mama na==and save all ")
+print("You finally after 69420 lives saved $100 and more! WHy u waste all your money and when into debt bruh. You should lister to your mama and save all the money you got so in 1 day you could have a=saved 100 already. You need to clear your debt now!!!!!!!!")
+
