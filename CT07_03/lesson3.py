@@ -37,6 +37,7 @@ import random
 
 lives = 3
 question = 1
+yes = 0
 while question != 15:
     Num = random.randint(2, 20)
     Num1 = random.randint(2, 20)
