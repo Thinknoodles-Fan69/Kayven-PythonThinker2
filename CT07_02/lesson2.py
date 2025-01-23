@@ -149,7 +149,7 @@ while True:
             break
 
 
-    print("Your score is" + str(score))
+    print("Your score is " + str(score))
 
     break
 
