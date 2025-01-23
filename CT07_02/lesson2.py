@@ -198,6 +198,4 @@ while True:
 
 
 
-
-
-A
+Question = ""
