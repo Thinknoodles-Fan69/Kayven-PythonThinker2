@@ -92,7 +92,7 @@ while True:
 
 
     for i in range(5):
-        if i != 4:
+        if i != 5:
             answer = input("If a bat and a baseball bat cost $1.10, and the baseball bat is $1 more than the bat, how much is the bat?")
 
             if answer == "$0.05" or answer == "5¢" or answer == "5 cents" or answer == "five cents" or answer == "5 cent" or answer == "five cent":
@@ -114,7 +114,7 @@ while True:
    
 
     for i in range(5):
-        if i != 4:
+        if i != 5:
             answer = input("If 5 machine in 5 minutes prints 5 paper, how long does it takes for 100 machines to print 100 paper?")
 
             if answer == "5" or answer == "five":
@@ -134,7 +134,7 @@ while True:
     
 
     for i in range(5):
-        if i != 4:
+        if i != 5:
             answer = input("There is a lilypad in your pond, and it doubles everyday. At day 50, the lilypad covered the entire pond.How many days does it take the lilypad to cover half the pond?")
 
             if answer == "49" or answer == "fourty-nine":
