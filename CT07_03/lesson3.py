@@ -40,7 +40,7 @@ question = 1
 while question != 15:
     1 = random.randint(2, 20)
     2 = random.randint(2, 20)
-    ask = input("What is " )
+    ask = input("What is " (1) (2) )
     
 
 
