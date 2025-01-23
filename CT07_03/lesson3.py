@@ -39,7 +39,8 @@ lives = 3
 question = 1
 while question != 15:
     1 = random.randint(2, 20)
-    ask = input(what)
+    2 = random.randint(2, 20)
+    ask = input("What is " )
     
 
 
