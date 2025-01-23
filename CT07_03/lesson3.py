@@ -20,7 +20,7 @@ import time
 # print("Throw Big boy down!!")
 
 
-timing = int(input("How long do you want to study?  = ")) 
+timing = int(input("How long do you want to study? Minutes = ")) * 60
 while timing != 0:
     print(str(timing) + " second left bruh.......")
     timing -= 1
