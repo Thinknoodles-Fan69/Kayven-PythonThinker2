@@ -30,4 +30,6 @@ import time
 saving = 0
 while saving < 100:
     question = float(input("How much do you save today after in school, eating recess, eating lunch, buying football card, betting with your friends, eating dinner, going to the movie, paying money to have some rest, wasting the aircon electricity?"))
-    
+    saving += question
+
+
