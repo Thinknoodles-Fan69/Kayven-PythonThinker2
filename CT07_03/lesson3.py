@@ -27,4 +27,4 @@ while timing != 0:
     time.sleep(1)
 print("Time is up")
 
-saving = int(input)
+saving = (input("What "))
