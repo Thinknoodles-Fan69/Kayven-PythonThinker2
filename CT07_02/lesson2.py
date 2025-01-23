@@ -151,5 +151,7 @@ while True:
 
     print("Your score is" + str(score))
 
+    break
+
 
 
