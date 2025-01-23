@@ -44,6 +44,7 @@ while question != 15:
     if ask != Num * Num1:
         print("You are dumb. Wrong!!")
         lives -= 1
+        
     if lives == 0:
         print("You stoopid Lose! You suck bruh.")    
         break
