@@ -36,7 +36,10 @@ import random
 # print("You finally after 69420 lives saved $100 and more! Why u waste all your money and when into debt bruh. You should lister to your mama and save all the money you got so in 1 day you could have a=saved 100 already. You need to clear your debt now!!!!!!!!")
 
 lives = 3
-
+question = 1
+while question != 15:
+    ask = input(What is )
+    
 
 
 
