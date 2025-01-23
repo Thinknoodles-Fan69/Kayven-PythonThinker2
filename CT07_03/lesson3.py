@@ -25,3 +25,4 @@ while time != 0:
     print(str(time) + " second left bruh.......")
     time -= 1
     time.sleep(1)
+print("Time is up")
