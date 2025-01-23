@@ -38,6 +38,7 @@ import random
 lives = 3
 question = 1
 while question != 15:
+    random_randint = 1
     ask = input(what)
     
 
