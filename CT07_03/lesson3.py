@@ -40,6 +40,7 @@ question = 1
 while question != 15:
     Num = random.randint(2, 20)
     Num1 = random.randint(2, 20)
+    answer = Num * Num1
     ask = input("What is " + str(Num) + " x " + str(Num1) + "?" )
     if ask != Num * Num1:
         print("You are dumb. Wrong!!")
