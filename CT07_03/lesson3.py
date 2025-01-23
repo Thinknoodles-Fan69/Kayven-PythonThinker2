@@ -27,4 +27,4 @@ while timing != 0:
     time.sleep(1)
 print("Time is up")
 
-question = float(input("How much do you save today after in school, eating recess, eating lunch, buy c"))
+question = float(input("How much do you save today after in school, eating recess, eating lunch, buy football card, betting with your friends,"))
