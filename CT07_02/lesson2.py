@@ -86,25 +86,25 @@
 # print(topping)
 
 
-score = 0
-while True:
+# score = 0
+# while True:
     
 
 
-    for i in range(5):
-        if i != 5:
-            answer = input("If a bat and a baseball bat cost $1.10, and the baseball bat is $1 more than the bat, how much is the bat?")
+#     for i in range(5):
+#         if i != 5:
+#             answer = input("If a bat and a baseball bat cost $1.10, and the baseball bat is $1 more than the bat, how much is the bat?")
 
-            if answer == "$0.05" or answer == "5¢" or answer == "5 cents" or answer == "five cents" or answer == "5 cent" or answer == "five cent":
-                print("correct!")
-                score += 1
-                break
-            else:
-                print("That is wrong! Try again")
+#             if answer == "$0.05" or answer == "5¢" or answer == "5 cents" or answer == "five cents" or answer == "5 cent" or answer == "five cent":
+#                 print("correct!")
+#                 score += 1
+#                 break
+#             else:
+#                 print("That is wrong! Try again")
 
-        else:
-            print("You have answersed to many times. Please proceed to the next question")
-            break
+#         else:
+#             print("You have answersed to many times. Please proceed to the next question")
+#             break
         
 
     
@@ -113,45 +113,45 @@ while True:
 
    
 
-    for i in range(5):
-        if i != 5:
-            answer = input("If 5 machine in 5 minutes prints 5 paper, how long does it takes for 100 machines to print 100 paper?")
+#     for i in range(5):
+#         if i != 5:
+#             answer = input("If 5 machine in 5 minutes prints 5 paper, how long does it takes for 100 machines to print 100 paper?")
 
-            if answer == "5" or answer == "five":
-                print("correct!")
-                score += 1
-                break
-            else:
-                print("That is wrong! Try again")
+#             if answer == "5" or answer == "five":
+#                 print("correct!")
+#                 score += 1
+#                 break
+#             else:
+#                 print("That is wrong! Try again")
 
-        else:
-            print("You have answersed to many times. Please proceed to the next question")
-            break
+#         else:
+#             print("You have answersed to many times. Please proceed to the next question")
+#             break
 
 
 
 
     
 
-    for i in range(5):
-        if i != 5:
-            answer = input("There is a lilypad in your pond, and it doubles everyday. At day 50, the lilypad covered the entire pond.How many days does it take the lilypad to cover half the pond?")
+#     for i in range(5):
+#         if i != 5:
+#             answer = input("There is a lilypad in your pond, and it doubles everyday. At day 50, the lilypad covered the entire pond.How many days does it take the lilypad to cover half the pond?")
 
-            if answer == "49" or answer == "fourty-nine":
-                print("correct!")
-                score += 1
-                break
-            else:
-                print("That is wrong! Try again")
+#             if answer == "49" or answer == "fourty-nine":
+#                 print("correct!")
+#                 score += 1
+#                 break
+#             else:
+#                 print("That is wrong! Try again")
 
-        else:
-            print("You have answersed to many times. Please proceed to the next question")
-            break
+#         else:
+#             print("You have answersed to many times. Please proceed to the next question")
+#             break
 
 
-    print("Your score is " + str(score))
+#     print("Your score is " + str(score))
 
-    break
+#     break
 
 
 
