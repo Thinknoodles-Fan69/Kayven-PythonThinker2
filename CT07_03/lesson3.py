@@ -20,9 +20,9 @@ while CountDown != 0:
 print("Throw Big boy down!!")
 
 
-time = int(input("How long do you want to study? (in Minutes)   = "))
+time = int(input("How long do you want to study? (in Minutes)   = ")) * 60
 while time != 0:
     print(str(time) + " second left bruh.......")
     time -= 1
-    time.sleep(1)
+    time.sleep(0.1)
 print("Time is up")
