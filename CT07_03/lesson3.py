@@ -20,9 +20,9 @@ import time
 # print("Throw Big boy down!!")
 
 
-time = int(input("How long do you want to study?  = ")) 
-while time != 0:
-    print(str(time) + " second left bruh.......")
-    time -= 1
-    time.sleep(1 / 10)
+timing = int(input("How long do you want to study?  = ")) 
+while timing != 0:
+    print(str(timing) + " second left bruh.......")
+    timing -= 1
+    time.sleep(1 )
 print("Time is up")
