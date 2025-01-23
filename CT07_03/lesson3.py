@@ -24,5 +24,5 @@ time = int(input("How long do you want to study?  = "))
 while time != 0:
     print(str(time) + " second left bruh.......")
     time -= 1
-    time.sleep(0.1)
+    time.sleep(1 / 10)
 print("Time is up")
