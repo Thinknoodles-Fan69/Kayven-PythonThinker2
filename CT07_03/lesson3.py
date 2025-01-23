@@ -50,6 +50,7 @@ while question != 15:
     if question == 15:
         print("You answered all question correct!! Thats crazy!")
         break
+    question += 1
 
 
 
