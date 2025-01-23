@@ -14,4 +14,5 @@ import time
 
 CountDown = 10
 while CountDown != 0:
-    print(COunt)
+    print(CountDown)
+    CountD
