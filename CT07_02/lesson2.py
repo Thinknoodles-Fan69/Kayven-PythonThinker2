@@ -202,4 +202,4 @@ Question = "What is for breakfast? = "
 answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl Sauce"
 guess = input(Question)
 while guess != answer:
-    print("Wrong! Are you ")
+    print("Wrong! Are you freaking kidding me? It is so easy bruh. How hard it is? YOu did not even")
