@@ -17,4 +17,6 @@ while CountDown != 0:
     print(CountDown)
     CountDown -= 1
     time.sleep(1)
-print("Nuke the Thro Big boy!!")
+print("Throw Big boy down!!")
+
+
