@@ -12,15 +12,15 @@ import time
 
 
 
-CountDown = 10
-while CountDown != 0:
-    print(CountDown)
-    CountDown -= 1
-    time.sleep(1)
-print("Throw Big boy down!!")
+# CountDown = 10
+# while CountDown != 0:
+#     print(CountDown)
+#     CountDown -= 1
+#     time.sleep(1)
+# print("Throw Big boy down!!")
 
 
-time = int(input("How long do you want to study? (in Minutes)   = ")) * 60
+time = int(input("How long do you want to study?  = ")) 
 while time != 0:
     print(str(time) + " second left bruh.......")
     time -= 1
