@@ -205,4 +205,47 @@ while guess != answer:
     print("Wrong! Are you freaking kidding me? It is so easy bruh. How hard it is? You did not even try your best lol. I will send you to Jesus!!!!!!!!!!!!!!")
     guess = input(Question)
 
-print("Finally correct. HAIYAAA ")
+print("Finally correct. HAIYAAA why you take so long?????????Stooopid")
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
