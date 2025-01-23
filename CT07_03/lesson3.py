@@ -40,7 +40,9 @@ question = 1
 while question != 15:
     Num = random.randint(2, 20)
     Num1 = random.randint(2, 20)
-    ask = input("What is " (Num) + "x " + (Num1) + "" )
+    ask = input("What is " (Num) + "x " + (Num1) + "?" )
+    if ask != Num * Num1:
+        
     
 
 
