@@ -43,7 +43,9 @@ while question != 15:
     ask = input("What is " (Num) + "x " + (Num1) + "?" )
     if ask != Num * Num1:
         print("You are dumb. Wrong!!")
-        
+        lives -= 1
+    if lives == 0:
+            
 
 
 
