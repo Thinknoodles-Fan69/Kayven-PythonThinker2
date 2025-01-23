@@ -199,4 +199,4 @@ while True:
 
 
 Question = "What is for breakfast? = "
-answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty "
+answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl sSa"
