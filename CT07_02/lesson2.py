@@ -155,7 +155,7 @@ while True:
 
 
 
-# # Define my variables
+## Define my variables
 # max_attempts = 3
 # score = 0
 
@@ -188,3 +188,15 @@ while True:
 #             print("Too many attempts! Try the next question.")
 
 # print(f"Your final score is {score} out of {len(questions_answers) // 2}.")
+
+
+
+
+
+
+
+
+
+
+
+
