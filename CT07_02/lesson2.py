@@ -198,4 +198,5 @@ while True:
 
 
 
-Question = "What is for breakfast? "
+Question = "What is for breakfast? = "
+answer = ""
