@@ -47,7 +47,7 @@ while question != 15:
     if lives == 0:
         print("You stoopid Lose! You suck bruh.")    
 
-
+print("You answered all question correct!! Thats crazy!")
 
 
 
