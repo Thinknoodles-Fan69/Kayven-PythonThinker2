@@ -16,4 +16,5 @@ CountDown = 10
 while CountDown != 0:
     print(CountDown)
     CountDown -= 1
+    time.sleep(1)
 print("Nuke the Throw Big boy!!")
