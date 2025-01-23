@@ -1,5 +1,6 @@
 # print("Hello from lesson 3")
 import time
+import random
 
 # Question = "What is for breakfast? = "
 # answer = "Stale chips with Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl Sauce"
@@ -27,12 +28,12 @@ import time
 #     time.sleep(1)
 # print("Time is up")
 
-saving = 0
-while saving < 100:
-    question = float(input("How much do you save today after in school, eating recess, eating lunch, buying football card, betting with your friends, eating dinner, going to the movie, paying money to have some rest, wasting the aircon electricity?"))
-    saving += question
+# saving = 0
+# while saving < 100:
+#     question = float(input("How much do you save today after in school, eating recess, eating lunch, buying football card, betting with your friends, eating dinner, going to the movie, paying money to have some rest, wasting the aircon electricity?"))
+#     saving += question
 
-print("You finally after 69420 lives saved $100 and more! Why u waste all your money and when into debt bruh. You should lister to your mama and save all the money you got so in 1 day you could have a=saved 100 already. You need to clear your debt now!!!!!!!!")
+# print("You finally after 69420 lives saved $100 and more! Why u waste all your money and when into debt bruh. You should lister to your mama and save all the money you got so in 1 day you could have a=saved 100 already. You need to clear your debt now!!!!!!!!")
 
 
 
