@@ -35,26 +35,26 @@ import random
 
 # print("You finally after 69420 lives saved $100 and more! Why u waste all your money and when into debt bruh. You should lister to your mama and save all the money you got so in 1 day you could have a=saved 100 already. You need to clear your debt now!!!!!!!!")
 
-lives = 3
-question = 1
-while question != 15:
-    Num = random.randint(2, 20)
-    Num1 = random.randint(2, 20)
-    answer = Num * Num1
-    ask = int(input("What is " + str(Num) + " x " + str(Num1) + "?" ))
-    if ask != answer:
-        print("You are dumb. Wrong!!")
-        lives -= 1
-    if ask == answer:
-        print("Yeay")
-        question += 1
-    if lives == 0:
-        print("You stoopid Lose! You suck bruh.")    
-        break
+# lives = 3
+# question = 1
+# while question != 15:
+#     Num = random.randint(2, 20)
+#     Num1 = random.randint(2, 20)
+#     answer = Num * Num1
+#     ask = int(input("What is " + str(Num) + " x " + str(Num1) + "?" ))
+#     if ask != answer:
+#         print("You are dumb. Wrong!!")
+#         lives -= 1
+#     if ask == answer:
+#         print("Yeay")
+#         question += 1
+#     if lives == 0:
+#         print("You stoopid Lose! You suck bruh.")    
+#         break
     
 
-if lives > 0:
-    print("You answered all question correct!! Thats crazy!")
+# if lives > 0:
+#     print("You answered all question correct!! Thats crazy!")
 
 
 
