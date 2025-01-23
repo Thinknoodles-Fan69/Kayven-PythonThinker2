@@ -26,3 +26,16 @@ while timing != 0:
     timing -= 1
     time.sleep(1)
 print("Time is up")
+
+
+
+
+
+
+
+
+
+
+
+
+
