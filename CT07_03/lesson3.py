@@ -20,4 +20,4 @@ while CountDown != 0:
 print("Throw Big boy down!!")
 
 
-time = input("")
+time = input("How long do you want to study?")
