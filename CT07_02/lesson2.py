@@ -200,3 +200,4 @@ while True:
 
 
 
+guess = int
