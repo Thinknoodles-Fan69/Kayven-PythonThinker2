@@ -22,4 +22,4 @@ print("Throw Big boy down!!")
 
 time = int(input("How long do you want to study?"))
 while time != 0:
-    print(time)
+    print(str(time) + " second left bruh.......")\
