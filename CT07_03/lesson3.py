@@ -47,10 +47,11 @@ while question != 15:
         lives -= 1
     if ask == answer:
         print("Yeay")
+        question += 1
     if lives == 0:
         print("You stoopid Lose! You suck bruh.")    
         break
-    question += 1
+    
 
 if lives > 0:
     print("You answered all question correct!! Thats crazy!")
