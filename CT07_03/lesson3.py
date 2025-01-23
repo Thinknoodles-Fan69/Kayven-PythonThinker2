@@ -15,4 +15,5 @@ import time
 CountDown = 10
 while CountDown != 0:
     print(CountDown)
-    CountD
+    CountDown -= 1
+print("")
