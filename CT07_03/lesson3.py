@@ -39,12 +39,14 @@ lives = 3
 question = 1
 yes = 0
 while question != 15:
+    yes = 0
     Num = random.randint(2, 20)
     Num1 = random.randint(2, 20)
     ask = input("What is " + str(Num) + "x " + str(Num1) + "?" )
     if ask != Num * Num1:
         print("You are dumb. Wrong!!")
         lives -= 1
+        yes = 0
     if lives == 0:
         print("You stoopid Lose! You suck bruh.")    
         break
