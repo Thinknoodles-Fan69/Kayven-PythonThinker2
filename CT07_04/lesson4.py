@@ -20,9 +20,8 @@ Solar = [
 # Solar.append("Pluto")
 # Solar.insert(3, "lalaLand")
 
-# earth_index = Solar.index("Earth")
-# Solar.insert(earth_index + 1, "LalaLand")
-# print(Solar)
+earth_index = Solar.index("Earth")
+Solar.insert(earth_index + 1, "LalaLand")
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
 # print(Solar)
@@ -54,3 +53,12 @@ Solar = [
 # zoo.insert(10, "Foxhole")
 # print(zoo)
 
+for i in range(len(zoo)):
+    if i == "Earth":
+        print( i + ": this is my home")
+    elif i == "Mars":
+        print( i + ": I conquered this")
+    elif i == "LalaLand":
+        print(i + ": I created this")
+    else:
+        print(i)
