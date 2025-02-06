@@ -32,4 +32,4 @@ zoo = [
 
 
 
-lists.insert(10)
+lists.insert(10, "Foxhole")
