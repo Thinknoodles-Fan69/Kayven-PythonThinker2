@@ -11,7 +11,7 @@ Solar = [
 ]
 
 Solar.append("Pluto")
-Solar.apprehend(3, "lalaLand")
+Solar.append(3, "lalaLand")
 print(Solar)
 
 
