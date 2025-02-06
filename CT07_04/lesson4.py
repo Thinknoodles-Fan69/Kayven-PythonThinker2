@@ -12,10 +12,9 @@ Solar = [
 
 # Solar.append("Pluto")
 # Solar.insert(3, "lalaLand")
-# print(Solar)
 
 earth_index = Solar.index("Earth")
-Solar.ethan()
+Solar.ethan
 
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
