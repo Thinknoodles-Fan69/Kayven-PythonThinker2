@@ -80,14 +80,14 @@ while True:
     user = input("What Food do you want to sell? = ")
     if user == "end":
         break
-    Food.append(int(user))
+    Food.append(user)
 
 while True:
     person = input("What would you like to eat? = ")
     print(Food)
     for i in Food:
         print(i)       
-        if person == i:
+        if str(person) == i:
             print("Yes! We sell that! Please have a seat.")
             break
         else:
