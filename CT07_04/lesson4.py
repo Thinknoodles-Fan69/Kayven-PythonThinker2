@@ -20,8 +20,8 @@ Solar = [
 # Solar.append("Pluto")
 # Solar.insert(3, "lalaLand")
 
-earth_index = Solar.index("Earth")
-Solar.insert(earth_index + 1, "LalaLand")
+# earth_index = Solar.index("Earth")
+# Solar.insert(earth_index + 1, "LalaLand")
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
 # print(Solar)
@@ -75,26 +75,26 @@ Solar.insert(earth_index + 1, "LalaLand")
 
 
 
-Food = []
-while True:
-    user = input("What Food do you want to sell? = ")
-    if user == "end":
-        break
-    Food.append(user)
+# Food = []
+# while True:
+#     user = input("What Food do you want to sell? = ")
+#     if user == "end":
+#         break
+#     Food.append(user)
 
-found = False
+# found = False
 
-while True:
-    person = input("What would you like to eat? = ")
-    print(Food)
-    for i in Food:
-        print(i)       
-        if str(person) == i:
-            found = True
-    if found == True:    
-        print("Yes! We sell that! Please have a seat.")
-        break
-    else:
-        print("Sorry, please go next door. Bye!")
+# while True:
+#     person = input("What would you like to eat? = ")
+#     print(Food)
+#     for i in Food:
+#         print(i)       
+#         if str(person) == i:
+#             found = True
+#     if found == True:    
+#         print("Yes! We sell that! Please have a seat.")
+#         break
+#     else:
+#         print("Sorry, please go next door. Bye!")
         
-    break
+#     break
