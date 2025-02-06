@@ -53,7 +53,7 @@ Solar.insert(earth_index + 1, "LalaLand")
 # zoo.insert(10, "Foxhole")
 # print(zoo)
 
-for i in range(len(Solar)):
+for i in (len(Solar)):
     if i == "Earth":
         print( i + ": this is my home")
     elif i == "Mars":
