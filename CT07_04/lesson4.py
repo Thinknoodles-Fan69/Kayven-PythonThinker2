@@ -29,8 +29,8 @@ zoo = [
     "kangaroo"
 ]
 
-
-
+zoo.pop()
+print()
 
 
 
