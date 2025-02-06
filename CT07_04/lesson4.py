@@ -6,6 +6,7 @@ Solar = [
     "Mars",
     "Jupiter",
     "Saturn",
+    "Uranus",
     
 ]
 
