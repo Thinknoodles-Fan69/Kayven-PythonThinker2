@@ -30,7 +30,7 @@ zoo = [
 ]
 
 zoo.pop()
-print()
+print(zoo)
 
 
 
