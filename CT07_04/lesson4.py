@@ -77,9 +77,9 @@ Solar.insert(earth_index + 1, "LalaLand")
 
 country = []
 while True:
-    user = input("What Food do you ? = ")
+    user = input("What Food do you want to sell? = ")
     if user == "end":
         break
-    country.append(user)
+    Foodappend(user)
 for i in country:
     print("I would like to visit " + i)
