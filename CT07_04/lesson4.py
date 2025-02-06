@@ -14,7 +14,7 @@ Solar = [
 # Solar.insert(3, "lalaLand")
 
 earth_index = Solar.index("Earth")
-Solar.insert(earth_index, "LalaLand")
+Solar.insert(earth_index + 1, "LalaLand")
 print(Solar)
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
