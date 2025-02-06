@@ -23,3 +23,8 @@ zoo = [
     "kangaroo"
 ]
 
+
+counter = 0
+
+while counter != len(zoo):
+    
