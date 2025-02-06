@@ -65,4 +65,4 @@ Solar.insert(earth_index + 1, "LalaLand")
 
 
 country = []
-
+user = input()
