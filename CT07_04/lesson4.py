@@ -11,7 +11,8 @@ Solar = [
 ]
 
 
-Solar.pop()
+Solar.pop(4)
+print(Solar)
 
 
 
