@@ -91,7 +91,7 @@ while True:
         print(i)       
         if str(person) == i:
             found = True
-            
+    if found == True:    
         print("Yes! We sell that! Please have a seat.")
         break
     else:
