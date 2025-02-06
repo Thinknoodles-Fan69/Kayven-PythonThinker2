@@ -11,5 +11,6 @@ Solar = [
 ]
 
 
-Solar[3] = "SKibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
+Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
+
 
