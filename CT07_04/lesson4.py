@@ -13,21 +13,21 @@ Solar = [
 # Solar.append("Pluto")
 # Solar.insert(3, "lalaLand")
 
-earth_index = Solar.index("Earth")
-Solar.insert(earth_index + 1, "LalaLand")
-print(Solar)
+# earth_index = Solar.index("Earth")
+# Solar.insert(earth_index + 1, "LalaLand")
+# print(Solar)
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
 # print(Solar)
 
-# zoo = [
-#     "monkey",
-#     "lion",
-#     "deer",
-#     "tiger",
-#     "elephant",
-#     "kangaroo"
-# ]
+zoo = [
+    "monkey",
+    "lion",
+    "deer",
+    "tiger",
+    "elephant",
+    "kangaroo"
+]
 
 
 # counter = 0
