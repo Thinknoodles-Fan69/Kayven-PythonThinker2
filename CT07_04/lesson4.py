@@ -64,4 +64,4 @@ Solar.insert(earth_index + 1, "LalaLand")
 #         print(i)
 
 
-food
+food = []
