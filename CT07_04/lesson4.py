@@ -10,3 +10,6 @@ Solar = [
     "Nepture"
 ]
 
+
+Solar[3] = ""
+
