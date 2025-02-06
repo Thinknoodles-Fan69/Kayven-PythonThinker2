@@ -70,4 +70,5 @@ while True:
     if user == "end":
         break
     country.append(user)
-
+for i in country:
+    print()
