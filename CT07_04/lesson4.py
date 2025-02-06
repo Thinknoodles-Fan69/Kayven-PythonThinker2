@@ -11,7 +11,7 @@ Solar = [
 ]
 
 Solar.append("Pluto")
-Solar.apprehend()
+Solar.apprehend(3, "lalaLand")
 
 
 
