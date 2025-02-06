@@ -71,4 +71,4 @@ while True:
         break
     country.append(user)
 for i in country:
-    print("I would like to visit" + i)
+    print("I would like to visit " + i)
