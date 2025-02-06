@@ -10,7 +10,8 @@ Solar = [
     "Nepture"
 ]
 
-Solar.append()
+Solar.append("Pluto")
+
 
 
 
