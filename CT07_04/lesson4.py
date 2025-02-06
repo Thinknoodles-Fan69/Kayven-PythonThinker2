@@ -87,4 +87,4 @@ while True:
     if person == Food:
         print("Yes! We sell that! Please have a seat.")
     else:
-        print("")
+        print("Sorry, please go next door. Bye!")
