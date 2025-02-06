@@ -88,6 +88,6 @@ while True:
         if person == i:
             print("Yes! We sell that! Please have a seat.")
             break
-        else:
-            print("Sorry, please go next door. Bye!")
-            break
+    else:
+        print("Sorry, please go next door. Bye!")
+        break
