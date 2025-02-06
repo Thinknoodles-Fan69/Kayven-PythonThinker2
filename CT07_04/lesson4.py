@@ -10,6 +10,12 @@ Solar = [
     "Nepture"
 ]
 
+
+
+
+
+
+
 # Solar.append("Pluto")
 # Solar.insert(3, "lalaLand")
 
@@ -29,8 +35,8 @@ zoo = [
     "kangaroo"
 ]
 
-zoo.pop()
-print(zoo)
+# zoo.pop()
+# print(zoo)
 
 
 
