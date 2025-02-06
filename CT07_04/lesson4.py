@@ -80,7 +80,7 @@ while True:
     user = input("What Food do you want to sell? = ")
     if user == "end":
         break
-    Food.append(user)
+    Food.append(int(user))
 
 while True:
     person = input("What would you like to eat? = ")
