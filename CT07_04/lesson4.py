@@ -14,7 +14,7 @@ Solar = [
 # Solar.insert(3, "lalaLand")
 # print(Solar)
 
-earth_index = Solar("Earth")
+earth_index = Solar.index("Earth")
 
 
 
