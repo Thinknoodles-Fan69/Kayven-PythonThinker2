@@ -32,4 +32,5 @@ zoo = [
 
 
 
-lists.insert(10, "Foxhole")
+zoo.insert(10, "Foxhole")
+print(zoo)
