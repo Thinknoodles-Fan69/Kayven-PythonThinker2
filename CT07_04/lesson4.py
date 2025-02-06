@@ -15,7 +15,7 @@ Solar = [
 # print(Solar)
 
 earth_index = Solar.index("Earth")
-Solar.
+Solar.ethan()
 
 
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
