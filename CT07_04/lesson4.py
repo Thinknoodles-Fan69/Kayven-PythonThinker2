@@ -2,6 +2,7 @@
 Solar = [
     "Mercury",
     "Venus",
+    "Earth",
     
 ]
 
