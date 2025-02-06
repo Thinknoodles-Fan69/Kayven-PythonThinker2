@@ -91,9 +91,10 @@ while True:
         print(i)       
         if str(person) == i:
             found = True
-            print("Yes! We sell that! Please have a seat.")
-            break
-        else:
-            print("Sorry, please go next door. Bye!")
+            
+        print("Yes! We sell that! Please have a seat.")
+        break
+    else:
+        print("Sorry, please go next door. Bye!")
         
     break
