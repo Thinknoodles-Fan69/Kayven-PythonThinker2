@@ -14,4 +14,7 @@
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
 # print(Solar)
 
-zoo = []
+zoo = [
+    "monkey",
+    
+]
