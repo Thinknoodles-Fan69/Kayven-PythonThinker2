@@ -1,18 +1,18 @@
 # print("Hello from lesson 4")
-Solar = [
-    "Mercury",
-    "Venus",
-    "Earth",
-    "Mars",
-    "Jupiter",
-    "Saturn",
-    "Uranus",
-    "Nepture"
-]
+# Solar = [
+#     "Mercury",
+#     "Venus",
+#     "Earth",
+#     "Mars",
+#     "Jupiter",
+#     "Saturn",
+#     "Uranus",
+#     "Nepture"
+# ]
 
-Solar.append("Pluto")
-Solar.append(3, "lalaLand")
-print(Solar)
+# Solar.append("Pluto")
+# Solar.insert(3, "lalaLand")
+# print(Solar)
 
 
 
