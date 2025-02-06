@@ -11,8 +11,8 @@ Solar = [
 ]
 
 
-Solar.pop(4)
-print(Solar)
+# Solar.pop(4)
+# print(Solar)
 
 
 
@@ -27,14 +27,14 @@ print(Solar)
 # Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
 # print(Solar)
 
-zoo = [
-    "monkey",
-    "lion", 
-    "deer",
-    "tiger",
-    "elephant",
-    "kangaroo"
-]
+# zoo = [
+#     "monkey",
+#     "lion", 
+#     "deer",
+#     "tiger",
+#     "elephant",
+#     "kangaroo"
+# ]
 
 # zoo.pop()
 # print(zoo)
@@ -53,3 +53,4 @@ zoo = [
 
 # zoo.insert(10, "Foxhole")
 # print(zoo)
+
