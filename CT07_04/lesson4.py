@@ -82,6 +82,8 @@ while True:
         break
     Food.append(user)
 
+
+
 while True:
     person = input("What would you like to eat? = ")
     print(Food)
@@ -92,6 +94,5 @@ while True:
             break
         else:
             print("Sorry, please go next door. Bye!")
-            break
         
     break
