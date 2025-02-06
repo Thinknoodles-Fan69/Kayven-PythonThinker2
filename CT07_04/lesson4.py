@@ -84,6 +84,7 @@ while True:
 
 while True:
     person = input("What would you like to eat? = ")
+    print(Food)
     for i in Food:       
         if person == i:
             print("Yes! We sell that! Please have a seat.")
