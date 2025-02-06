@@ -16,5 +16,6 @@
 
 zoo = [
     "monkey",
-    
+    "lion",
+    ""
 ]
