@@ -12,5 +12,5 @@ Solar = [
 
 
 Solar[3] = "Skibidi Ohio Sigma Rizzler Gyatty Ligma Kissma Toilet Bowl"
-print("Solar")
+print(Solar)
 
