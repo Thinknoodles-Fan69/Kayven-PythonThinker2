@@ -81,5 +81,3 @@ while True:
     if user == "end":
         break
     Food.append(user)
-for i in country:
-    print("I would like to visit " + i)
