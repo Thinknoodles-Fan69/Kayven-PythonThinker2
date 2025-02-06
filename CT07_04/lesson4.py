@@ -83,4 +83,4 @@ while True:
     Food.append(user)
 
 while True:
-    
+    person = input("")
