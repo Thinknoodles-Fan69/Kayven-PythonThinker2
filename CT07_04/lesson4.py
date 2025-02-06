@@ -85,7 +85,7 @@ while True:
 while True:
     person = input("What would you like to eat? = ")
     for i in Food:
-        
-        print("Yes! We sell that! Please have a seat.")
+        if person == Food:
+            print("Yes! We sell that! Please have a seat.")
     else:
         print("Sorry, please go next door. Bye!")
