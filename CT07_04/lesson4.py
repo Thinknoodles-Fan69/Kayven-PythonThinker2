@@ -27,5 +27,5 @@ zoo = [
 counter = 0
 
 while counter != len(zoo):
-    print(zoo())    
+    print(zoo(counter))    
     counter +=1
