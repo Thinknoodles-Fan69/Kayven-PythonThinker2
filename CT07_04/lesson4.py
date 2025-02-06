@@ -82,7 +82,7 @@ while True:
         break
     Food.append(user)
 
-
+found = False
 
 while True:
     person = input("What would you like to eat? = ")
@@ -90,6 +90,7 @@ while True:
     for i in Food:
         print(i)       
         if str(person) == i:
+            found = True
             print("Yes! We sell that! Please have a seat.")
             break
         else:
