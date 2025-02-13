@@ -18,3 +18,4 @@ counter = 0
 if counter != 100:
     no = random.randint(1, 100)
     number += no + ", "
+    
