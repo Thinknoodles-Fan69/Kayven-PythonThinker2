@@ -32,6 +32,7 @@ counter1 = 0
 while counter1 != 100:
     no = random.randint(1, 1000)
     if no not in number1:
+        number1.append
         
 
         counter1 += 1
