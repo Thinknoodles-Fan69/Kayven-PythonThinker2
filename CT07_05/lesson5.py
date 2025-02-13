@@ -59,6 +59,6 @@ namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
 heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 number = heightlist.index(max(heightlist))
-print(namelist(number) + " is the tollest in the class with a height of " )
+print(namelist(number) + " is the tollest in the class with a height of " + max(heightlist) + "cm.")
 number1 = heightlist.index(min(heightlist))
 
