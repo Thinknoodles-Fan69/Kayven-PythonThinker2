@@ -90,8 +90,8 @@ Pokemon1 = random.choice(pokemons)
 Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
-Power1= powers.index(Pokemon1)
-Power2= powers.index(Pokemon2)
+Power1Index= powers.index(Pokemon1)
+Power2Index= powers.index(Pokemon2)
 
 
 
