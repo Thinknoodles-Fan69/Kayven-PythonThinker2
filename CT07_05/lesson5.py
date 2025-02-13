@@ -100,7 +100,7 @@ Power2 = powers[Power2Index]
 if Power1 > Power2:
     Game = "The winner of this exciting match with consist of AI bot and " + name + "is..........." + name + "lets congratulate the AI for being the winner of the competition and let give him the trophy. Ronud of applause everyone!"
 else:
-    Over = "The winner of this exciting match with consist of AI bot and " + name + "is...........the AI bot." 
+    Over = "The winner of this exciting match with consist of AI bot and " + name + "is...........the AI bot. ets congratulate the AI for being the winner of the competition and let give him the trophy. Ronud of applause everyone!" 
 
 
 
