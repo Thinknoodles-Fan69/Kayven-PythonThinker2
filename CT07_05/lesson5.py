@@ -92,4 +92,3 @@ Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
 print("AI bot pokemons is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
-
