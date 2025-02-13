@@ -31,7 +31,7 @@ number1 = []
 counter1 = 0
 while True:
     if counter1 != 100:
-        number1.append(random.randint(1, 1000))
+        no = random.randint(1, 1000)
         counter1 += 1
     else:
         break
