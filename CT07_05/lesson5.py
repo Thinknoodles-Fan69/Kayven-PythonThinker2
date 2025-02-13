@@ -86,9 +86,10 @@ print("Here are the rules:")
 print("Each player has a random pokemon with a power to it. Whoever's pokemon power is greater, will win the competition. Let the games begin!")
 
 Pokemon1 = random.choice(pokemons)
-print(name + " pokemons is the " + Pokemon1 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+print(name + " pokemon is the " + Pokemon1 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
 
 Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
-print("AI bot pokemons is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+print("AI bot pokemon is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+
