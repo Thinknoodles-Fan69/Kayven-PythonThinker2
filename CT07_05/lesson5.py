@@ -28,13 +28,13 @@ import random
 
 
 number1 = []
-counter = 0
+counter1 = 0
 while True:
-    if counter != 100:
-        number.append(random.randint(1, 1000))
-        counter += 1
+    if counter1 != 100:
+        number1.append(random.randint(1, 1000))
+        counter1 += 1
     else:
         break
 
-for i in number:
+for i in number1:
     print(i)
