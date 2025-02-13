@@ -41,15 +41,13 @@ import random
 # print("There is " + len(number1) + " numbers in this list.")
 
 
-# number1 = []
-# counter1 = 0
-# while counter1 != 100:
-#     no = random.randint(1, 1000)
-#     if no not in number1:
-#         number1.append(no)
-#         counter1 += 1
+number1 = []
+counter1 = 0
+while counter1 != 100:
+    no = random.randint(1, 1000)
+    if no not in number1:
+        number1.append(no)
+        counter1 += 1
 
-# for i in number1:
-#     print(i)
-
-# print("There is " + len(number1) + " numbers in this list.")
+for i in number1:
+    print(i)
