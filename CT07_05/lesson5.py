@@ -97,7 +97,7 @@ Power1 = powers[Power1Index]
 Power2 = powers[Power2Index]
 
 if Power1 > Power2:
-    Game == "The winner of this "
+    Game = "The winner of this "
 
 
 name = input("What is your name? =")
