@@ -14,4 +14,6 @@
 
 
 number = []
-counter = 1
+counter = 0
+if counter != 100:
+    
