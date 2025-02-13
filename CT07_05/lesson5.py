@@ -88,4 +88,4 @@ print(name + " pokemons is the " + Pokemon1 + ". Will he achieve victory with th
 Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
-print(name + " pokemons is the " + Pokemon1 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+print(" pokemons is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
