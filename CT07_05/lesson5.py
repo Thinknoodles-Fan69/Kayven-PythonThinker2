@@ -29,7 +29,8 @@ import random
 
 number1 = []
 counter1 = 0
-while counter != 100:
+while counter1 != 100:
+    
     if counter1 != 100:
         no = random.randint(1, 1000)
 
