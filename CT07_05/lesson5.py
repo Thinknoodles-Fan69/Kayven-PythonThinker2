@@ -91,7 +91,8 @@ Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
 Power1= Pokemon1.index(powers)
-Power1= Pokemon1.index(powers)
+Power2= Pokemon2.index(powers)
+
 
 name = input("What is your name? =")
 
