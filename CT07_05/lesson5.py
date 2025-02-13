@@ -53,13 +53,9 @@ import random
 # print(min(number1))
 # print(sum(number1) / len(number1))
 
-number1 = []
-counter1 = 0
-while counter1 != 100:
-    no = random.randint(1, 1000)
-    if no not in number1:
-        number1.append(no)
-        counter1 += 1
-
+namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+            "Sophia", "Lucas", "Mia", "Aiden"
+            ]
+heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 print(max(number1))
 print(min(number1))
