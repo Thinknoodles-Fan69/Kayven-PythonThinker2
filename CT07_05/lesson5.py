@@ -79,4 +79,4 @@ powers = [
     50, 125, 65, 110, 83
 ]
 
-Pokemon 1
+Pokemon1 = 
