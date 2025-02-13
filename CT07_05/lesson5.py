@@ -13,14 +13,18 @@ import random
 #     print(i)
 
 
-number = []
-counter = 0
-while True:
-    if counter != 100:
-        number.append(random.randint(1, 100))
-        counter += 1
-    else:
-        break
+# number = []
+# counter = 0
+# while True:
+#     if counter != 100:
+#         number.append(random.randint(1, 100))
+#         counter += 1
+#     else:
+#         break
 
-for i in number:
-    print(i)
+# for i in number:
+#     print(i)
+
+
+
+
