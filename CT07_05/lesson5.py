@@ -62,3 +62,5 @@ number = heightlist.index(max(heightlist))
 print(str(namelist(number)) + " is the tallest in the class with a height of " + max(heightlist) + "cm.")
 number1 = heightlist.index(min(heightlist))
 print(str(namelist(number1)) + " is the shortest in the class with a height of " + min(heightlist) + "cm.")
+
+
