@@ -78,7 +78,7 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
-
+print("Welcome to the 50 Annive")
 Pokemon1 = random.choice(pokemons)
 print
 Pokemon2= random.choice(pokemons)
