@@ -16,4 +16,4 @@
 number = []
 counter = 0
 if counter != 100:
-    
+    no = r
