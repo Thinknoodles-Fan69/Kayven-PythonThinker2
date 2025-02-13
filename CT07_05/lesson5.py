@@ -19,4 +19,5 @@ if counter != 100:
     no = random.randint(1, 100)
     number += no + ", "
 
-print()
+for i in food:
+    print
