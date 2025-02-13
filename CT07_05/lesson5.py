@@ -94,7 +94,7 @@ Power1Index= pokemons.index(Pokemon1)
 Power2Index= pokemons.index(Pokemon2)
 
 Power1 = powers[Power1Index]
-Power1 = powers[Power1Index]
+Power2 = powers[Power2Index]
 
 
 name = input("What is your name? =")
