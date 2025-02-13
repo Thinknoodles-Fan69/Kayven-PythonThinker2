@@ -98,7 +98,7 @@ Power1 = powers[Power1Index]
 Power2 = powers[Power2Index]
 
 if Power1 > Power2:
-    Game = "The winner of this exciting match with consist of AI bot and " + name + "is..........." + name + ". Lets congratulate the" + name +  "for being the winner of the competition and let give him the trophy. Ronud of applause everyone!"
+    Game = "The winner of this exciting match with consist of AI bot and " + name + "is..........." + name + ". Lets congratulate the" + name + "for being the winner of the competition and let give him/her the trophy. Ronud of applause everyone!"
 else:
     Over = "The winner of this exciting match with consist of AI bot and " + name + "is...........the AI bot. Lets congratulate the AI bot for being the winner of the competition and let give him the trophy. Ronud of applause everyone!" 
 
