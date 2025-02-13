@@ -78,7 +78,7 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
-print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary —a journey filled with endless possibilities, innovation, and inspiration. We gather here not just to celebrate a milestone, but to embrace the future and shape it together. Let the adventure begin!")
+print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a journey filled with endless possibilities, innovation, and inspiration. We gather here not just to celebrate a milestone, but to embrace the future and shape it together. Let the adventure begin!")
 Pokemon1 = random.choice(pokemons)
 print
 Pokemon2= random.choice(pokemons)
