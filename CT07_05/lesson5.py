@@ -34,8 +34,6 @@ while counter1 != 100:
     if no not in number1:
         number1.append(no)
         counter1 += 1
-    else:
-        break
 
 for i in number1:
     print(i)
