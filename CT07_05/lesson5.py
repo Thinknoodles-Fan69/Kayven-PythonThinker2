@@ -97,6 +97,7 @@ Power1 = powers[Power1Index]
 Power2 = powers[Power2Index]
 
 
+
 name = input("What is your name? =")
 
 print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a place where the best Pokemon player win the grand champion and is titled the world best Pokemon Player. We gather here not just to celebrate a Winner, but to embrace the future. Let the competition begin!")
