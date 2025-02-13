@@ -30,9 +30,9 @@ import random
 number1 = []
 counter1 = 0
 while counter1 != 100:
-    
-    if counter1 != 100:
-        no = random.randint(1, 1000)
+    no = random.randint(1, 1000)
+    if no :
+        
 
         counter1 += 1
     else:
