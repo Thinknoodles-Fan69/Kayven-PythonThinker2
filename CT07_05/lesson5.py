@@ -16,8 +16,7 @@ import random
 number = []
 counter = 0
 if counter != 100:
-    no = random.randint(1, 100)
-    number += str(no) + ", "
+    random.randint(1, 100)
     counter += 1
 
 for i in number:
