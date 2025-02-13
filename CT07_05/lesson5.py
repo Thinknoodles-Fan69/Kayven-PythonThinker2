@@ -64,4 +64,11 @@ import random
 # print(str(namelist[number1]) + " is the shortest in the class with a height of " + str(min(heightlist)) + "cm.")
 
 
+pokemons = [
+    "Pikachu", "Charizard", "Bulbasaur", "Squirtle",
+    "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
+    "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
+    "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther",
+    "Electabuzz"
+]
 
