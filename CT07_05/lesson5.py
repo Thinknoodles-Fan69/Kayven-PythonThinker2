@@ -90,7 +90,7 @@ Pokemon1 = random.choice(pokemons)
 Pokemon2= random.choice(pokemons)
 while Pokemon2 == Pokemon1:
     Pokemon2= random.choice(pokemons)
-number = heightlist.index(max(heightlist))
+Power1= heightlist.index(max(heightlist))
 
 name = input("What is your name? =")
 
