@@ -38,4 +38,4 @@ while counter1 != 100:
 for i in number1:
     print(i)
 
-print(len(number1))
+print("There is" + len(number1))
