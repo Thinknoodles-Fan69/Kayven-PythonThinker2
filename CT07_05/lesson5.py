@@ -93,8 +93,8 @@ while Pokemon2 == Pokemon1:
 Power1Index= pokemons.index(Pokemon1)
 Power2Index= pokemons.index(Pokemon2)
 
-Power1 = Power1Index
-
+Power1 = powers[Power1Index]
+Power1 = powers[Power1Index]
 
 
 name = input("What is your name? =")
