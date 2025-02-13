@@ -15,10 +15,12 @@ import random
 
 number = []
 counter = 0
-while
-if counter != 100:
-    number.append(random.randint(1, 100))
-    counter += 1
+while True:
+    if counter != 100:
+        number.append(random.randint(1, 100))
+        counter += 1
+    else:
+        break
 
 for i in number:
     print(i)
