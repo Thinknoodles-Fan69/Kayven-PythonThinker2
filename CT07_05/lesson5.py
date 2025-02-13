@@ -50,5 +50,6 @@ while counter1 != 100:
         counter1 += 1
 
 print(max(number1))
-print(max(number1))
+print(min(number1))
+a
 
