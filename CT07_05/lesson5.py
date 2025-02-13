@@ -60,4 +60,5 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 number = heightlist.index(max(heightlist))
 
-print(min(heightlist))
+number1 = heightlist.index(min(heightlist))
+
