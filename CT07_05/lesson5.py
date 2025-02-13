@@ -48,5 +48,7 @@ while counter1 != 100:
     if no not in number1:
         number1.append(no)
         counter1 += 1
-        
+
+print(max(number1))
+print(max(number1))
 
