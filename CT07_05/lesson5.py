@@ -105,11 +105,12 @@ else:
 
 
 
-print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a place where the best Pokemon player win the grand champion and is titled the world best Pokemon Player. We gather here not just to celebrate a Winner, but to embrace the future. Let the competition begin!")
-print("Here are the rules:")
-print("Each player has a random pokemon with a power to it. Whoever's pokemon power is greater, will win the competition. Let the games begin!")
+
+# print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a place where the best Pokemon player win the grand champion and is titled the world best Pokemon Player. We gather here not just to celebrate a Winner, but to embrace the future. Let the competition begin!")
+# print("Here are the rules:")
+# print("Each player has a random pokemon with a power to it. Whoever's pokemon power is greater, will win the competition. Let the games begin!")
 
 
-print(name + " pokemon is the " + Pokemon1 + ". Will he/she achieve victory with this pokemon? Let us give him/her a round of applause for him/her getting a good pokemon!")
-print("AI bot pokemon is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+# print(name + " pokemon is the " + Pokemon1 + ". Will he/she achieve victory with this pokemon? Let us give him/her a round of applause for him/her getting a good pokemon!")
+# print("AI bot pokemon is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
 
