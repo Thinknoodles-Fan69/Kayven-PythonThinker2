@@ -96,6 +96,8 @@ Power2Index= pokemons.index(Pokemon2)
 Power1 = powers[Power1Index]
 Power2 = powers[Power2Index]
 
+if Power1 > Power2:
+    Game == 
 
 
 name = input("What is your name? =")
