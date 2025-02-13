@@ -17,7 +17,7 @@ import random
 # counter = 0
 # while True:
 #     if counter != 100:
-#         number.append(random.randint(1, 100))
+#         number.append(random.randint(1, 1000))
 #         counter += 1
 #     else:
 #         break
