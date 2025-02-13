@@ -37,3 +37,6 @@ while counter1 != 100:
 
 for i in number1:
     print(i)
+
+for i in len(number1):
+    print()
