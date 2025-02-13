@@ -81,4 +81,5 @@ powers = [
 
 Pokemon1 = random.choice(pokemons)
 Pokemon2= random.choice(pokemons)
-
+while Pokemon2 == Pokemon1:
+    Pokemon2= random.choice(pokemons)
