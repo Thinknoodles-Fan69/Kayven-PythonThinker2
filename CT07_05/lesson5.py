@@ -1,5 +1,5 @@
 # print("Hello from lesson 5")
-
+import random
 # food = [    
 #     "Chicken Rice",
 #     "Ice cream",
@@ -16,4 +16,4 @@
 number = []
 counter = 0
 if counter != 100:
-    no = r
+    no = random.randint(1, 100)
