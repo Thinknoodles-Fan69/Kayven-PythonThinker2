@@ -1,5 +1,6 @@
 # print("Hello from lesson 5")
 import random
+import time
 # food = [    
 #     "Chicken Rice",
 #     "Ice cream",
@@ -98,19 +99,70 @@ Power1 = powers[Power1Index]
 Power2 = powers[Power2Index]
 
 if Power1 > Power2:
-    print("The winner of this exciting match with consist of AI bot and " + name + " is........... " + name + ". Lets congratulate the " + name + " for being the winner of the competition and lets give him/her the trophy. Ronud of applause everyone!")
+    higherPower = name
+    higherPokemon = Pokemon1
+    lowerPower = "ÄI Bot"
+    lowerPokemon = Pokemon2
 else:
-    print("The winner of this exciting match with consist of AI bot and " + name + "is...........the AI bot. Lets congratulate the AI bot for being the winner of the competition and lets give him the trophy. Ronud of applause everyone!")
+    higherPower = "ÄI Bot"
+    higherPokemon = Pokemon2
+    lowerPower = name
+    lowerPokemon = Pokemon1
 
 
 
 
 
-# print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a place where the best Pokemon player win the grand champion and is titled the world best Pokemon Player. We gather here not just to celebrate a Winner, but to embrace the future. Let the competition begin!")
-# print("Here are the rules:")
-# print("Each player has a random pokemon with a power to it. Whoever's pokemon power is greater, will win the competition. Let the games begin!")
+print("Welcome, one and all, to this momentous occasion! Today marks the 50th anniversary pokemon competition final—a place where the best Pokemon player win the grand champion and is titled the world best Pokemon Player. We gather here not just to celebrate a Winner, but to embrace the future. Let the competition begin!")
+time.sleep(20)
+print("Here are the rules:")
+time.sleep(3)
+print("Each player has a random pokemon with a power to it. Whoever's pokemon power is greater, will win the competition. Let the games begin!")
+time.sleep(10)
 
+print(name + " pokemon is the " + Pokemon1 + ". Will he/she achieve victory with this pokemon? Let us give him/her a round of applause for him/her getting a good pokemon!")
+time.sleep(10)
+print("AI bot pokemon is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+time.sleep(10)
 
-# print(name + " pokemon is the " + Pokemon1 + ". Will he/she achieve victory with this pokemon? Let us give him/her a round of applause for him/her getting a good pokemon!")
-# print("AI bot pokemon is the " + Pokemon2 + ". Will he achieve victory with this pokemon? Let us give him a round of applause for him getting a good pokemon!")
+print("Now, Let the games begin!")
+time.sleep(3)
+print("Players, please get ready and enter to battle field.")
+time.sleep(3)
+print("Players, it is time to fight.")
+time.sleep(3)
 
+for i in range(5, 0, -1):
+    print(i)
+    time.sleep(1)
+
+print("The fight begins with " + lowerPokemon + " using his super move against " + higherPokemon + ". But " + higherPokemon + " escaped without a scratch on its body. Instead, " + higherPokemon + " Started a counter attack!" )
+time.sleep(8)
+print(higherPokemon + " used his ability to blind " + lowerPokemon + " eyes! What a way to stun the opponent! " + higherPokemon + " tried to use his super move against " + lowerPokemon + ", but it was defended as " + lowerPokemon + " used his hearing to hear where the souds of " + higherPokemon + " is and blocked its attack. What a brilliant move!")
+time.sleep(20)
+print("This is a crazy and intense match, But who will win?")
+time.sleep(3)
+print("Bang!")
+time.sleep(2)
+print(lowerPokemon + " used his mega evolution and stomped on " + higherPokemon + ". " + higherPokemon + " fell onto the ground in pain. Looks like " + lowerPower + " is going to win this competition!")
+time.sleep(7)
+print("Looks like " + lowerPower + " and " + lowerPokemon + " is celebrating their win!")
+time.sleep(3)
+print("Wait! But " + higherPokemon + " is nowhere to be seen! Where is " + higherPokemon + "?")
+time.sleep(3)
+print("Wait! Is that " + higherPokemon + "? Looks like " + higherPower + " used the Double Rush!")
+time.sleep(3)
+print("Bang! Smack! Looks like " + higherPokemon + " attack his opponent Pokemon twice. Looks like " + lowerPokemon + " is lying unconscious on the ground!")
+time.sleep(10)
+print("The referee is going to start the countdown")
+time.sleep(5)
+for a in range(1, 11 ):
+    print(a)
+    time.sleep(1)
+
+print("Game over! " + lowerPower + " Pokemon is unable to battle!")
+time.sleep(1)
+print("The game is finally over! Looks like there is a winner!")
+
+time.sleep(5)
+print("The winner of this exciting match with consist of AI bot and " + name + " is........... " + higherPower + " and his pokemon " + higherPokemon + ". Lets congratulate them for being the winner of the competition and lets give him/her the trophy. Ronud of applause everyone!")
