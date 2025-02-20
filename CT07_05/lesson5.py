@@ -161,7 +161,7 @@ for a in range(1, 11 ):
     time.sleep(1)
 
 print("Game over! " + lowerPower + " Pokemon is unable to battle!")
-time.sleep(1)
+time.sleep(3)
 print("The game is finally over! Looks like there is a winner!")
 
 time.sleep(5)
