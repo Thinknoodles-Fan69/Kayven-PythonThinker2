@@ -64,23 +64,4 @@ import random
 # print("the numbers of fat and obese plus 1000000 aura and rizz boys is " + str(len(boy)))
 # print("the number of girls that have no aura and negative 10000 rizz aura is " + str(len(girl)))
 
-
-# list1 = ["Apple", "Banana", "Cherry"]
-# list2 = ["Durian", "Elderberry", "Figs"]
-
-# listses = list1 + list2
-
-# print(listses)
-
-# list1 = [3.20, 2.65, 1.75]
-# list2 = [6.15, 5.45, 4.20]
-
-# listses = list1 + list2
-# sortedlistses = sorted(listses)
-# print(sortedlistses)
-
-
-
-
-
-        
+            
