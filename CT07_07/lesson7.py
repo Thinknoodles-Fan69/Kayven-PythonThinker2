@@ -125,14 +125,14 @@
 # for a in flat_list:
 #     print(a)
 
-# students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# size = 3
-# nested_list = []
-# for i in range(0, len(students) , size):
-#     nested_list.append(students[i:i+size])
+students = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+size = 3
+nested_list = []
+for i in range(0, len(students) , size):
+    nested_list.append(students[i:i+size])
 
-# for a in nested_list:
-#     print(a)
+for a in nested_list:
+    print(a)
 
 
  
