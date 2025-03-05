@@ -2,5 +2,5 @@ food = []
 while True:
     userInput = input( "What would you like to order?")
     if userInput != "end":
-        
+        food.append(userInput)
 
