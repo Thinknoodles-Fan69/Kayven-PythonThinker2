@@ -6,7 +6,8 @@ while True:
     else:
         break
 
+
+print("You have ordered the following:")
 for a in range(len(food)):
-    print("You have ordered the following:")
     print(str(a+1) + ". " + food[a])
 
