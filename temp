@@ -8,6 +8,6 @@ while True:
         print("After fighting monsters, his Health is now: " + str(heroHealth))
         heroBattles += 1
     if heroHealth <= 0:
-        print("He fought " + heroBattles + " battles, and died.")
+        print("He fought " + str(heroBattles) + " battles, and died.")
 
 
