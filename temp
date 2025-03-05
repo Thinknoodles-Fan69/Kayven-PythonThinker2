@@ -1,2 +1,3 @@
 heroHealth = 100
 heroBattles = 0
+import random
