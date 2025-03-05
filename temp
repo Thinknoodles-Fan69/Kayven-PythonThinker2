@@ -8,5 +8,5 @@ while True:
 
 for a in range(len(food)):
     print("You have ordered the following:")
-    print(a + ". " + food[a])
+    print(a+1 + ". " + food[a])
 
