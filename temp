@@ -9,5 +9,6 @@ while True:
         heroBattles += 1
     if heroHealth <= 0:
         print("He fought " + str(heroBattles) + " battles, and died.")
+        break
 
 
