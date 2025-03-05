@@ -7,5 +7,5 @@ while True:
         break
 
 for a in range(len(food)):
-    print
+    print("You have ordered the following:")
 
