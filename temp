@@ -1,8 +1,9 @@
 import random  
 heroHealth = 100
 heroBattles = 0
-
+print("Hero starts on his adventure with Health: " + heroHealth)
 while True:
     while heroHealth != 0:
         heroHealth -= random.randint(1, 15)
-        print("After fighting monsters, his Health now is:" x)
+        print("After fighting monsters, his Health is not: " + str(heroHealth))
+
