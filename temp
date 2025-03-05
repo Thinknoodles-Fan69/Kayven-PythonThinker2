@@ -4,8 +4,7 @@ heroBattles = 0
 print("Hero starts on his adventure with Health: " + str(heroHealth))
 while True:
     heroHealth -= random.randint(1, 15)
-    if heroHealth > 0:
-        
+    if heroHealth > 0: 
         print("After fighting monsters, his Health is now: " + str(heroHealth))
         heroBattles += 1
     else:
