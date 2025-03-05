@@ -2,3 +2,6 @@ import random
 heroHealth = 100
 heroBattles = 0
 
+while True:
+    while heroHealth != 0:
+        heroHealth
