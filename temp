@@ -5,4 +5,4 @@ heroBattles = 0
 while True:
     while heroHealth != 0:
         heroHealth -= random.randint(1, 15)
-        print(heroHealthx)
+        print()
