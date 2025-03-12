@@ -21,7 +21,8 @@
 # print(listb)
 
 
-# 
+# My noteses
+tele = "91234567"
 
 
 
