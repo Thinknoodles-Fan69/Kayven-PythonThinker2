@@ -33,7 +33,7 @@ string = "hello123"
 
 valid = True
 for char in string:
-    if not string.isdigit() and not string.alpha():
+    if not string.isdigit() and not string.isalpha():
         valid = False
         break
 
