@@ -116,3 +116,5 @@ for i in Noses:
     else:
         i.lower()
 
+print(Noses)
+
