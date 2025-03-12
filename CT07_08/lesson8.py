@@ -76,4 +76,4 @@
 
 
 
-guess = input()
+new = input("")
