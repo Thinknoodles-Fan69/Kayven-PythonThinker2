@@ -4,4 +4,5 @@ list2 = [6, 5, 5]
 list3 = [9, 8, 7]
 newList = []
 
-newList = list 1 +
+newList = list1 + list2 + list3
+
