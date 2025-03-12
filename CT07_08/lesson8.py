@@ -129,7 +129,8 @@ list = ['Computers',
          'digital',
          'brains.']
 
-string = " ".join()
+string = " ".join(list)
+print(list)
 
 
 
