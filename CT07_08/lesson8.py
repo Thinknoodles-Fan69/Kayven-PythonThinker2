@@ -67,6 +67,7 @@ for i in user_input:
 
 for i in user_input:
     if i.islower() == True:
+        has_lower = True 
         
 
 
