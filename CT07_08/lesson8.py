@@ -117,5 +117,5 @@ for i in range(len(nos)):
     else:
         end = end + nos[i].upper()
 
-print(nos)
+print(end)
 
