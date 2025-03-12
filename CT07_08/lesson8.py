@@ -13,6 +13,7 @@ for letters in daddy:
     if letters in newList:
         newList.append(letters)
 
+new
 midPoint = len(newList) // 2
 
 lista = newList[:midPoint]
