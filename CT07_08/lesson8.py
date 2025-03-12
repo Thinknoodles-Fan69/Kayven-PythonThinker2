@@ -129,6 +129,8 @@ list = ['Computers',
          'digital',
          'brains.']
 
+string = " ".join()
+
 
 
 
