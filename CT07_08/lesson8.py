@@ -84,16 +84,17 @@ has_lower = False
 has_num = False
 only_alnum = False
 
-for i in new:
-    if i.isupper() == True:
-        has_upper = True
+
 
 if len(new) >= 8:
     is_8char_long = True
 
 for i in new:
     if i.islower() == True:
-        has_lower = True    
+        has_lower = True     
+    
+    if i.isdigit():
+        has
 
 if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
     print("Password is valid")
