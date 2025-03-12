@@ -83,3 +83,19 @@ has_upper = False
 has_lower = False
 has_num = False
 only_alnum = False
+
+if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
+    print("Password is valid")
+
+
+
+if len(user_input) >= 8:
+    is_8char_long = True
+
+for i in user_input:
+    if i.supper() == True:
+        has_upper = True
+
+for i in user_input:
+    if i.islower() == True:
+        has_lower = True    
