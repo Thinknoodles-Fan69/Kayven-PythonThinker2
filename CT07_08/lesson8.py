@@ -9,7 +9,7 @@ daddy = list1 + list2 + list3
 
 newList = sorted(newList)
 
-for letters in newList:
+for letters in daddy:
     if letters in newList:
         newList.pop(letters+1)
 
