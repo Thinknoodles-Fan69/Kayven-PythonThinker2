@@ -76,4 +76,4 @@
 
 
 
-new = input("")
+new = input("You need a password for this Roblox Accound. Please contain ")
