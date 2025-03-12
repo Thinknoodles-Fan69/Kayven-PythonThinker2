@@ -110,8 +110,9 @@
 
 nos = input("gIvE mE a RaNdOm SeNtEnCe So ThAt I cAn Be HaPpY fOr HiTlEr : ")
 Noses = 0
-if Noses % 2 == 0:
-    nos.upper()
-else:
-    nos.lower
+for i in Noses:
+    if Noses % 2 == 0:
+        nos.upper()
+    else:
+        nos.lower
 
