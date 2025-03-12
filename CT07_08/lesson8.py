@@ -37,7 +37,7 @@ for char in string:
         valid = False
         break
 
-    
+string = 
 
 
 
