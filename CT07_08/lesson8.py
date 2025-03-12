@@ -12,7 +12,7 @@ newList = sorted(newList)
 for letters in newList:
     for letterses in letters:
         if letterses in letters:
-            newList.pop(a+1)
+            newList.pop(letterses+1)
 
 midPoint = len(newList) // 2
 
