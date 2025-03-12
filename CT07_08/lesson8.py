@@ -113,9 +113,9 @@ end = ""
 
 for i in range(len(nos)):
     if i % 2 == 0:
-        end = end + nos[i].upper()
-    else:
         end = end + nos[i].lower()
+    else:
+        end = end + nos[i].upper()
 
 print(nos)
 
