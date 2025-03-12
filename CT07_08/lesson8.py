@@ -5,7 +5,7 @@ list3 = [9, 8, 7]
 newList = []
 lista = []
 listb = []
-newList = list1 + list2 + list3
+daddy = list1 + list2 + list3
 
 newList = sorted(newList)
 
