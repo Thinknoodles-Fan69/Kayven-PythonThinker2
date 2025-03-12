@@ -48,6 +48,7 @@ string = "HELLO"
 string.islower()
 
 
+is_
 
 
 
