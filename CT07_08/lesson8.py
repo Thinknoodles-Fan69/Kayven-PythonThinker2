@@ -19,4 +19,5 @@ midPoint = len(newList) // 2
 lista = newList[:midPoint]
 listb = newList[midPoint:]
 
-print
+print(lista)
+print(listb)
