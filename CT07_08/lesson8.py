@@ -41,8 +41,8 @@ string = "hello123"
 
 string.isalnum()
 
-string = "HELLO"
-
+string = "HELL NO"
+string.isupper()
 
 
 
