@@ -41,10 +41,10 @@ string = "hello123"
 
 string.isalnum()
 
-string = "HELL NO"
+string = "HELLO"
 string.isupper()
 
-
+string
 
 
 
