@@ -73,7 +73,7 @@
 #         has_lower = True 
 
 # if i.isupper(): = if True:
-
+#       End of notes
 
 
 new = input("You need a password for this Roblox Account. Please contain a least 8 letters, a upper case, a lower case, a number and a alphabet:")
