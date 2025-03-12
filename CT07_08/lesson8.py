@@ -108,4 +108,5 @@
 #     print("Noooooooooooooooooooooooooo")
 
 
-input("gIvE mE a RaNdOm SeNtEnCe So ThAt I cAn Be HaPpY fOr Hi")
+input("gIvE mE a RaNdOm SeNtEnCe So ThAt I cAn Be HaPpY fOr HiTlEr : ")
+
