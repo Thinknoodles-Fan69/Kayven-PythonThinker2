@@ -9,5 +9,7 @@ newList = list1 + list2 + list3
 for i in newList:
     for a in i:
         if a in i:
-            newList.pop()
+            newList.pop(a+1)
+
+
 
