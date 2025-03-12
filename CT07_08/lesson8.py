@@ -116,6 +116,6 @@ for i in range(len(nos)):
         end = end + i[counter].upper()
     else:
         end = end + i[counter].lower()
-    
+    counter +=1
 print(nos)
 
