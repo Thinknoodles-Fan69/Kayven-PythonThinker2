@@ -6,3 +6,4 @@ newList = []
 
 newList = list1 + list2 + list3
 
+
