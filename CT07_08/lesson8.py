@@ -129,7 +129,7 @@ list = ['Computers',
          'digital',
          'brains.']
 
-string = "".join(list)
+string = " pneumonoultramicroscopicsilicovolcanoconiosis ".join(list)
 print(string)
 
 
