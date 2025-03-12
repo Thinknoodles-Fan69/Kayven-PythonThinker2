@@ -75,3 +75,5 @@
 # if i.isupper(): = if True:
 
 
+
+
