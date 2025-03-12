@@ -37,7 +37,8 @@ for char in string:
         valid = False
         break
 
-string = 
+string = "hello123"
+    
 
 
 
