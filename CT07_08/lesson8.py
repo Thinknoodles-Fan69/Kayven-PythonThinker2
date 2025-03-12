@@ -88,7 +88,7 @@ for i in new:
     if i.isupper() == True:
         has_upper = True
 
-if len(Pnew) >= 8:
+if len(new) >= 8:
     is_8char_long = True
 
 for i in new:
