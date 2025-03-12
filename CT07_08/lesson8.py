@@ -11,7 +11,7 @@ newList = sorted(newList)
 
 for letters in daddy:
     if letters in newList:
-        newList.pop(letters+1)
+        newList.append(letters)
 
 midPoint = len(newList) // 2
 
