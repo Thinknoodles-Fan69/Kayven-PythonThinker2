@@ -16,6 +16,6 @@ for i in newList:
 
 midPoint = len(newList) // 2
 
-lista = newList[:]
-
+lista = newList[:midPoint]
+listb = newList[midPoint:]
 
