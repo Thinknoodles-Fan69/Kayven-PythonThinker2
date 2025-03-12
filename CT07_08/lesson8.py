@@ -23,6 +23,8 @@
 
 # My noteses
 tele = "91234567"
+tele.isdigit()
+
 
 
 
