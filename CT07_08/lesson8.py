@@ -108,4 +108,4 @@
 #     print("Noooooooooooooooooooooooooo")
 
 
-input("wH")
+input("gIvE mE a RaNdOm")
