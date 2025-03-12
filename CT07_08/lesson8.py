@@ -9,8 +9,8 @@ newList = list1 + list2 + list3
 
 newList = sorted(newList)
 
-for i in newList:
-    for a in i:
+for letters in newList:
+    for a in letters:
         if a in i:
             newList.pop(a+1)
 
