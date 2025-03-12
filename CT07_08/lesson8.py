@@ -115,5 +115,5 @@ for i in nos:
     else:
         i.lower()
 
-print(mos)
+print(nos)
 
