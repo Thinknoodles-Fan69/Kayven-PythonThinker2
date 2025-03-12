@@ -22,30 +22,30 @@
 
 
 # My noteses
-tele = "91234567"
-tele.isdigit()
+# tele = "91234567"
+# tele.isdigit()
 
-username = "learner"
-username.isalpha()
+# username = "learner"
+# username.isalpha()
 
 
-string = "hello123"
+# string = "hello123"
 
-valid = True
-for char in string:
-    if not string.isdigit() and not string.isalpha():
-        valid = False
-        break
+# valid = True
+# for char in string:
+#     if not string.isdigit() and not string.isalpha():
+#         valid = False
+#         break
 
-string = "hello123"
+# string = "hello123"
 
-string.isalnum()
+# string.isalnum()
 
-string = "HELLO"
-string.isupper()
+# string = "HELLO"
+# string.isupper()
 
-string = "HELLO"
-string.islower()
+# string = "HELLO"
+# string.islower()
 
 
 is_8char_long = False
