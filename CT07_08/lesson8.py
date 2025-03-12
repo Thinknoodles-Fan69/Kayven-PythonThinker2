@@ -50,7 +50,8 @@ string.islower()
 
 is_8char_long = False
 has_upper = False
-
+has_lower = False
+has_num = False
 
 
 
