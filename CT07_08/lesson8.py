@@ -15,5 +15,6 @@ for i in newList:
 
 midPoint = len(newList) // 2
 
+List
 
 
