@@ -7,8 +7,6 @@ lista = []
 listb = []
 daddy = list1 + list2 + list3
 
-newList = sorted(newList)
-
 for letters in daddy:
     if letters in newList:
         newList.append(letters)
