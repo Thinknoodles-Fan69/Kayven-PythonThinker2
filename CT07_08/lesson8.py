@@ -119,7 +119,7 @@
 
 # print(end)
 
-['Computers',
+list = ['Computers',
          'empower',
          'our',
          'modern',
