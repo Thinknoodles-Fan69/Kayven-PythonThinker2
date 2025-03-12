@@ -10,7 +10,7 @@ newList = list1 + list2 + list3
 newList = sorted(newList)
 
 for letters in newList:
-        if letters not in newList:
+        if letters in newList:
             newList.pop(letters+1)
 
 midPoint = len(newList) // 2
