@@ -108,4 +108,4 @@
 #     print("Noooooooooooooooooooooooooo")
 
 
-input("gIvE mE a RaNdOm SeNtEnCe ")
+input("gIvE mE a RaNdOm SeNtEnCe So ThAt I cAn ")
