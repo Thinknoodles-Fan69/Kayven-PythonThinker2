@@ -48,7 +48,9 @@ string = "HELLO"
 string.islower()
 
 
-is_
+is_8char_long = False
+has_upper = False
+
 
 
 
