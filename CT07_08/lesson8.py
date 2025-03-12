@@ -60,6 +60,9 @@ if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
 
 if len(user_input) >= 8:
     is_8char_long = True
-    
+
+for i in user_input:
+    if i.supper() == True:
+        
 
 
