@@ -11,7 +11,7 @@ newList = sorted(newList)
 
 for letters in newList:
         if letters not in newList:
-            newList.pop(letterses+1)
+            newList.pop(letters+1)
 
 midPoint = len(newList) // 2
 
