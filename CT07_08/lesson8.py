@@ -8,7 +8,7 @@ listb = []
 daddy = list1 + list2 + list3
 
 for letters in daddy:
-    if letters in newList:
+    if letters not in newList:
         newList.append(letters)
 
 newList = sorted(newList)
