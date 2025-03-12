@@ -6,7 +6,7 @@ newList = []
 
 newList = list1 + list2 + list3
 
-newList
+newList = sorted(N)
 
 for i in newList:
     for a in i:
