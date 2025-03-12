@@ -41,6 +41,7 @@ string = "hello123"
 
 string.isalnum()
 
+string = "HELLO"
 
 
 
