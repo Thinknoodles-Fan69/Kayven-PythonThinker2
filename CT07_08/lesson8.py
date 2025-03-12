@@ -96,8 +96,7 @@ for i in new:
     if i.isdigit():
         has_num = True
 
-    for i in new:
-    if i.isupper() == True:
+    if i.isupper():
         has_upper = True
 
 if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
