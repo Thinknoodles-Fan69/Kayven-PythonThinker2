@@ -76,33 +76,36 @@
 #       End of notes
 
 
-new = input("You need a password for this Roblox Account. Please contain a least 8 letters, a upper case, a lower case, a number and a alphabet:")
+# new = input("You need a password for this Roblox Account. Please contain a least 8 letters, a upper case, a lower case, a number and a alphabet:")
 
-is_8char_long = False
-has_upper = False
-has_lower = False
-has_num = False
-only_alnum = False
+# is_8char_long = False
+# has_upper = False
+# has_lower = False
+# has_num = False
+# only_alnum = False
 
 
 
-if len(new) >= 8:
-    is_8char_long = True
+# if len(new) >= 8:
+#     is_8char_long = True
 
-for i in new:
-    if i.islower() == True:
-        has_lower = True     
+# for i in new:
+#     if i.islower() == True:
+#         has_lower = True     
     
-    if i.isdigit():
-        has_num = True
+#     if i.isdigit():
+#         has_num = True
 
-    if i.isupper():
-        has_upper = True
+#     if i.isupper():
+#         has_upper = True
     
-    if i.isalnum():
-        only_alnum = True
+#     if i.isalnum():
+#         only_alnum = True
 
-if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
-    print("Password is valid")
-else:
-    print("Noooooooooooooooooooooooooo")
+# if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
+#     print("Password is valid")
+# else:
+#     print("Noooooooooooooooooooooooooo")
+
+
+
