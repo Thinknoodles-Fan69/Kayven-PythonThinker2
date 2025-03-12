@@ -78,4 +78,8 @@
 
 new = input("You need a password for this Roblox Accound. Please contain a least 8 letters, a upper case, a lower case, a number and a alphabet:")
 
-
+is_8char_long = False
+has_upper = False
+has_lower = False
+has_num = False
+only_alnum = False
