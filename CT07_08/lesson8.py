@@ -114,7 +114,7 @@ for i in range(len(nos)):
     if i % 2 == 0:
         end = end + i.upper()
     else:
-        i.lower()
+        end = end + i.lower()
 
 print(nos)
 
