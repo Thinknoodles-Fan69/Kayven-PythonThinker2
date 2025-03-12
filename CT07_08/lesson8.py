@@ -38,7 +38,10 @@ for char in string:
         break
 
 string = "hello123"
-    
+
+string.isalnum()
+
+
 
 
 
