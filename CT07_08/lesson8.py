@@ -44,7 +44,8 @@ string.isalnum()
 string = "HELLO"
 string.isupper()
 
-string
+string = "HELLO"
+string.islower()
 
 
 
