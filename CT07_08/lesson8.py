@@ -12,4 +12,3 @@ for i in newList:
             newList.pop(a+1)
 
 
-
