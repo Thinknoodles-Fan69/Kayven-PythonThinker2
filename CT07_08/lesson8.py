@@ -113,9 +113,9 @@ end = ""
 counter = 0
 for i in range(len(nos)):
     if i % 2 == 0:
-        end = end + i[counter].upper()
+        end = end + nos[counter].upper()
     else:
-        end = end + i[counter].lower()
+        end = end + nos[i].lower()
     counter +=1
 print(nos)
 
