@@ -112,7 +112,7 @@ nos = input("gIvE mE a RaNdOm SeNtEnCe So ThAt I cAn Be HaPpY fOr HiTlEr : ")
 end = ""
 for i in range(len(nos)):
     if i % 2 == 0:
-        end = end + i.upper()
+        end = end + i[c].upper()
     else:
         end = end + i.lower()
 
