@@ -6,7 +6,7 @@ newList = []
 
 newList = list1 + list2 + list3
 
-newList = sorted(N)
+newList = sorted(newList)
 
 for i in newList:
     for a in i:
@@ -14,5 +14,6 @@ for i in newList:
             newList.pop(a+1)
 
 midPoint = len(newList) // 2
+
 
 
