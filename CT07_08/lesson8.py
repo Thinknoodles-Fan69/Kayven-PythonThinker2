@@ -89,13 +89,13 @@ if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
 
 
 
-if len(user_input) >= 8:
+if len(new) >= 8:
     is_8char_long = True
 
-for i in user_input:
+for i in new:
     if i.supper() == True:
         has_upper = True
 
-for i in user_input:
+for i in new:
     if i.islower() == True:
         has_lower = True    
