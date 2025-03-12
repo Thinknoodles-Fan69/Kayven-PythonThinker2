@@ -76,4 +76,4 @@
 
 
 
-new = input("You need a password for this Roblox Accound. Please contain a least 8 letters, a upper case, a lower case, ")
+new = input("You need a password for this Roblox Accound. Please contain a least 8 letters, a upper case, a lower case, a number and a alphabet:")
