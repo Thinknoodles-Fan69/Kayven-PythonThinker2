@@ -11,4 +11,4 @@ for i in newList:
         if a in i:
             newList.pop(a+1)
 
-
+midPoint = len(newList)
