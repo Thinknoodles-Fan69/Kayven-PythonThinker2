@@ -119,18 +119,18 @@
 
 # print(end)
 
-list = ['Computers',
-         'empower',
-         'our',
-         'modern',
-         'world',
-         'with',
-         'their',
-         'digital',
-         'brains.']
+# list = ['Computers',
+#          'empower',
+#          'our',
+#          'modern',
+#          'world',
+#          'with',
+#          'their',
+#          'digital',
+#          'brains.']
 
-string = " pneumonoultramicroscopicsilicovolcanoconiosis ".join(list)
-print(string)
+# string = " pneumonoultramicroscopicsilicovolcanoconiosis ".join(list)
+# print(string)
 
 
 
