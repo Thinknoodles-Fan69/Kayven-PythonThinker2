@@ -54,6 +54,8 @@
 # has_num = False
 # only_alnum = False
 
+
+# Wrong
 # if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
 #     print("Password is valid")
 
