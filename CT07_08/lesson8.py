@@ -26,6 +26,7 @@ tele = "91234567"
 tele.isdigit()
 
 username = "learner"
+username.isalpha()
 
 
 
