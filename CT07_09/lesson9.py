@@ -28,11 +28,11 @@ t.shape("square")
 t.up()
 t.sety(250)
 t.seth(0)
-for i in range(-300, 301, 50):
+for i in range(-300, 301, 75):
     t.fillcolor("Black")
     t.setx(i)
     t.stamp()
-    t.forward(25)
+    t.forwq(25)
     t.fillcolor("White")
     t.setx(i)
     t.stamp()
