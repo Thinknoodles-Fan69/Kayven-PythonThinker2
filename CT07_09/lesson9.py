@@ -20,3 +20,5 @@ else:
 
 
 window = turtle.Screen()
+
+window.mainloop()
