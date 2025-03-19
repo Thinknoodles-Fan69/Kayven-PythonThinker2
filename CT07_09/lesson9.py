@@ -70,7 +70,7 @@ Nat.color("Yellow")
 Nat.goto(-150, -250)
 Nat.write("Nat", align="center", font=("Arial", 20))
 
-guess = input("Who do you think will win this long and tiring race which includes loads of obstacles and challenges in this competition called 'The Tortoise Challenge'")
+guess = input("Who do you think will win this long and tiring race which includes loads of obstacles and challenges in this competition called 'The Tortoise Challenge'?")
 
 
 
