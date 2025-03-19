@@ -43,6 +43,7 @@ t.seth(0)
 t.pencolor("white")
 t.pendown()
 t.forward(600)
+t.hideturtle
 
 
 
