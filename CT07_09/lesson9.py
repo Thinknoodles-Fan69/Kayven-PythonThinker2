@@ -51,7 +51,7 @@ Kayla.seth(90)
 Kayla.shape(turtle)
 Kayla.color("red")
 Sally.goto(0, -250)
-Sally.write("")
+ayla.write("")
 
 
 
