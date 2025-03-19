@@ -26,4 +26,4 @@ window.mainloop()
 
 t = turtle.Turtle()
 t.shape("Balls")
-t.fillcolor()
+t.fillcolor("")
