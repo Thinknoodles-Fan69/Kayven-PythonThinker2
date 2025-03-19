@@ -69,7 +69,7 @@ Nat.seth(90)
 Nat.shape(turtle)
 Nat.color("red")
 Nat.goto(0, -250)
-Nat.write("Kayla", align="center", font=("Arial", 20))
+Nat.write("Nat", align="center", font=("Arial", 20))
 
 
 
