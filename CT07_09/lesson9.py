@@ -88,7 +88,8 @@ while True:
     Isabella.forward(random.randint(1,20))
 
     if Kayla.ycor() > 250:
-        Winner = "The winner "
+        Winner = "We are thrilled to announce the winner of our exciting contest! After reviewing all the incredible submissions, it’s time to crown the individual who truly stood out with their creativity, dedication, and talent. Please join us in congratulating Kayla! The competition moment of Kayla captured our attention and exceeded all expectations. Whether it was their innovative approach, attention to detail, or overall impact, Kayla displayed the qualities that we were looking for. Their hard work and unique perspective truly made them shine among the rest. We’d also like to take a moment to recognize all the participants for their remarkable efforts. Every submission demonstrated outstanding passion, and we were incredibly impressed by the level of skill and creativity that went into each entry. It was a tough decision, but ultimately, Kayla stood out in a way that was impossible to overlook. Thank you to everyone who took part in this journey, and we hope to see more amazing contributions from all of you in future contests. Stay tuned for more exciting opportunities ahead! Once again, congratulations to Kayla! Enjoy your well-deserved prize, and we can’t wait to see what you do next!"
+
 
 
 
