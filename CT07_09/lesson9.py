@@ -25,8 +25,8 @@ window.bgcolor("forestgreen")
 
 t = turtle.Turtle()
 t.shape("square")
-t.sety(250)
 t.up()
+t.sety(250)
 for i in range(-300, 301, 25):
     t.fillcolor("Black")
     t.setx(i)
