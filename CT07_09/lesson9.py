@@ -8,4 +8,4 @@ for i in guess:
     if "egg" in guess:
         isCorrect = True
 if isCorrect == True:
-    
+    print("Correct")
