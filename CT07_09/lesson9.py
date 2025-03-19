@@ -36,6 +36,7 @@ for i in range(-275, 301, 50):
     t.setx(i)
     t.stamp()
 
+t.up()
 
     
 
