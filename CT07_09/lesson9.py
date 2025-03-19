@@ -83,7 +83,7 @@ while True:
 
     Nat.forward(random.randint(1,20))
     Kayla.forward(random.randint(1,20))
-    Nat.forward(random.randint(1,20))
+    Isabella.forward(random.randint(1,20))
 
 
 window.mainloop()
