@@ -76,6 +76,8 @@ Kayla.down()
 Isabella.down()
 Nat.down()
 
+while True:
+    Nat
 
 
 window.mainloop()
