@@ -27,7 +27,7 @@ window.mainloop()
 t = turtle.Turtle()
 t.shape("square")
 t.sety(250)
-for i in range(20):
+for i in range(-300, 301, 25):
     t.fillcolor("Black")
     t.setx(-300)
     t.stamp()
