@@ -70,7 +70,7 @@ Nat.color("Yellow")
 Nat.goto(-150, -250)
 Nat.write("Nat", align="center", font=("Arial", 20))
 
-guess = input()
+guess = input("Who do you think will")
 
 
 
