@@ -59,7 +59,7 @@ Isabella.penup()
 Isabella.seth(90)
 Isabella.shape("turtle")
 Isabella.color("red")
-Isabella.goto(0, -250)
+Isabella.goto(150, -250)
 Isabella.write("Isabella", align="center", font=("Arial", 20))
 
 
@@ -68,7 +68,7 @@ Nat.penup()
 Nat.seth(90)
 Nat.shape("turtle")
 Nat.color("red")
-Nat.goto(0, -250)
+Nat.goto(-150, -250)
 Nat.write("Nat", align="center", font=("Arial", 20))
 
 
