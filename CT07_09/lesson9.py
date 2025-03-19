@@ -97,6 +97,8 @@ while True:
         Winner = "Isabella"
         break
 
+    
+
 
 window.mainloop()
 
