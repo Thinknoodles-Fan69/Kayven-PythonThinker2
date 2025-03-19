@@ -88,7 +88,7 @@ while True:
     Isabella.forward(random.randint(1,20))
 
     if Kayla.ycor() > 250:
-        
+        Winner = "The winner "
 
 
 
