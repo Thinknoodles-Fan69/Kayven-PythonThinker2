@@ -22,14 +22,27 @@ import turtle
 window = turtle.Screen()
 window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.mainloop()
 
-t = turtle.Turtle()
-t.shape("square")
-t.sety(250)
-for i in range(-300, 301, 25):
-    t.fillcolor("Black")
-    t.setx(i)
-    t.stamp()
+
 
 
