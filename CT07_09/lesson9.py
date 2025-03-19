@@ -37,7 +37,8 @@ for i in range(-275, 301, 50):
     t.stamp()
 
 t.up()
-t.goto(-300)
+t.goto(-300, -250)
+t.color()
 
     
 
