@@ -60,7 +60,7 @@ Isabella.seth(90)
 Isabella.shape(turtle)
 Isabella.color("red")
 Isabella.goto(0, -250)
-Isabella.write("Kayla", align="center", font=("Arial", 20))
+Isabella.write("Isabella", align="center", font=("Arial", 20))
 
 
 Nat = turtle.Turtle()
