@@ -77,7 +77,9 @@ Isabella.down()
 Nat.down()
 
 while True:
-    Nat.seth(random.randint())
+    Nat.seth(random.randint(75, 115))
+    Nat.seth(random.randint(75, 115))
+    Nat.seth(random.randint(75, 115))
 
 
 window.mainloop()
