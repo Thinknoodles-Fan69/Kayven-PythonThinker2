@@ -26,6 +26,6 @@ window.mainloop()
 
 t = turtle.Turtle()
 t.shape("square")
-
+t.sety(250)
 
 
