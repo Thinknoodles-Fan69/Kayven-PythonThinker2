@@ -32,9 +32,8 @@ for i in range(-300, 301, 75):
     t.fillcolor("Black")
     t.setx(i)
     t.stamp()
-    t.forward(50)
     t.fillcolor("White")
-    t.setx(i)
+    t.setx(i + 25)
     t.stamp()
 
 
