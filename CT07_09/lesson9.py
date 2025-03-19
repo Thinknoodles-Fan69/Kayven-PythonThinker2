@@ -76,6 +76,8 @@ Kayla.down()
 Isabella.down()
 Nat.down()
 
+Winner = ""
+
 while True:
     Nat.seth(random.randint(75, 115))
     Kayla.seth(random.randint(75, 115))
@@ -84,6 +86,10 @@ while True:
     Nat.forward(random.randint(1,20))
     Kayla.forward(random.randint(1,20))
     Isabella.forward(random.randint(1,20))
+
+    if Kayla.ycor() > 250:
+        
+
 
 
 window.mainloop()
