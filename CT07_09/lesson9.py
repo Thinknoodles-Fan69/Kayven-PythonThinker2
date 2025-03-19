@@ -45,7 +45,9 @@ t.pendown()
 t.forward(600)
 t.hideturtle
 
-Sally = turtle.Turtle
+Sally = turtle.Turtle()
+Sally.penup()
+Sally.
 
 
 
