@@ -31,10 +31,12 @@ for i in range(-300, 301, 50):
     t.fillcolor("Black")
     t.setx(i)
     t.stamp()
-for i in range(-250, 301, 50):
+for i in range(-275, 301, 50):
     t.fillcolor("White")
     t.setx(i)
     t.stamp()
+
+
     
 
 
