@@ -77,7 +77,7 @@ Isabella.down()
 Nat.down()
 
 while True:
-    Nat
+    Nat.seth()
 
 
 window.mainloop()
