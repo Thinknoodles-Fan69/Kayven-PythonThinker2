@@ -1,6 +1,6 @@
 # print("Hello from lesson 9")
 import turtle
-
+import random
 
 # guess = input("What has to be broken before you can use it? =")
 # isCorrect = False
