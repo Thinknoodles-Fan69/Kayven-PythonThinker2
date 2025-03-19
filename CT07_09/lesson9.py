@@ -97,6 +97,7 @@ while True:
         Winner = "Isabella"
         break
 
+if Winner == guess:
     
 
 
