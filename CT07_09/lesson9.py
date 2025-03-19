@@ -39,7 +39,7 @@ for i in range(-275, 301, 50):
 
 t.goto(-300, -250)
 t.seth(0)
-t.pencolor("yellow")
+t.pencolor("green")
 t.pendown()
 t.forward(600)
 
