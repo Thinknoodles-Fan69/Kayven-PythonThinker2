@@ -91,8 +91,11 @@ while True:
         Winner = "Kayla"
         break
     elif Nat.ycor() > 250:
-        Winner = ""
-
+        Winner = "Nat"
+        break
+    elif Isabella.ycor() > 250:
+        Winner = "Isabella"
+        break
 
 
 window.mainloop()
