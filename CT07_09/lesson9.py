@@ -28,7 +28,7 @@ t.shape("square")
 t.up()
 t.sety(250)
 t.seth(0)
-for i in range(-300, 301, 25):
+for i in range(-300, 301, 50):
     t.fillcolor("Black")
     t.setx(i)
     t.stamp()
