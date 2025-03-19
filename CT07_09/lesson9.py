@@ -51,7 +51,7 @@ Kayla.seth(90)
 Kayla.shape(turtle)
 Kayla.color("red")
 Kayla.goto(0, -250)
-Kayla.write("")
+Kayla.write("Kayla", align=)
 
 
 
