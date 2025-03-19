@@ -47,9 +47,9 @@ t.hideturtle
 
 Kayla = turtle.Turtle()
 Kayla.penup()
-Sally.seth(90)
-Sally.shape(turtle)
-Sally.color("red")
+Kayla.seth(90)
+Kayla.shape(turtle)
+Kayla.color("red")
 Sally.goto(0, -250)
 Sally.write("")
 
