@@ -24,4 +24,4 @@ window.setup(width=600, height=600)
 window.bgcolor("forestgreen")
 window.mainloop()
 
-t
+t = turtle.Turtle()
