@@ -81,7 +81,9 @@ while True:
     Kayla.seth(random.randint(75, 115))
     Isabella.seth(random.randint(75, 115))
 
-    Nat.forward(random.randint())
+    Nat.forward(random.randint(1,20))
+    Kayla.forward(random.randint(1,20))
+    Nat.forward(random.randint(1,20))
 
 
 window.mainloop()
