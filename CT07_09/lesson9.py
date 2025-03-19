@@ -78,8 +78,10 @@ Nat.down()
 
 while True:
     Nat.seth(random.randint(75, 115))
-    Nat.seth(random.randint(75, 115))
-    Nat.seth(random.randint(75, 115))
+    Kayla.seth(random.randint(75, 115))
+    Isabella.seth(random.randint(75, 115))
+
+    
 
 
 window.mainloop()
