@@ -54,6 +54,24 @@ Kayla.goto(0, -250)
 Kayla.write("Kayla", align="center", font=("Arial", 20))
 
 
+Kayla = turtle.Turtle()
+Kayla.penup()
+Kayla.seth(90)
+Kayla.shape(turtle)
+Kayla.color("red")
+Kayla.goto(0, -250)
+Kayla.write("Kayla", align="center", font=("Arial", 20))
+
+
+Kayla = turtle.Turtle()
+Kayla.penup()
+Kayla.seth(90)
+Kayla.shape(turtle)
+Kayla.color("red")
+Kayla.goto(0, -250)
+Kayla.write("Kayla", align="center", font=("Arial", 20))
+
+
 
 
     
