@@ -36,9 +36,10 @@ for i in range(-275, 301, 50):
     t.setx(i)
     t.stamp()
 
-t.up()
+
 t.goto(-300, -250)
 t.pencolor("yellow")
+
 
 
     
