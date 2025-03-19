@@ -25,5 +25,5 @@ window.bgcolor("forestgreen")
 window.mainloop()
 
 t = turtle.Turtle()
-t.shape("Balls")
-t.fillcolor("")
+t.shape("circle")
+t.fillcolor("orange")
