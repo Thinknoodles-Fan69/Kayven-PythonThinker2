@@ -50,8 +50,8 @@ Kayla.penup()
 Kayla.seth(90)
 Kayla.shape(turtle)
 Kayla.color("red")
-Sally.goto(0, -250)
-ayla.write("")
+Kayla.goto(0, -250)
+Kayla.write("")
 
 
 
