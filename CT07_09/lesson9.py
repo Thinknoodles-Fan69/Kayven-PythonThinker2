@@ -30,9 +30,7 @@ t.sety(250)
 for i in range(-300, 301, 25):
     t.fillcolor("Black")
     t.setx(i)
-    t.down()
     t.stamp()
-    t.up()
 
 
 
