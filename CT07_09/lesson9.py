@@ -28,6 +28,6 @@ t = turtle.Turtle()
 t.shape("square")
 t.sety(250)
 for i in range(20):
-    
+    t.fillcolor("Black")
 
 
