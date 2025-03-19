@@ -100,7 +100,7 @@ while True:
 if Winner == guess:
     print("You guessed correct")
 else:
-    print()
+    print("You LOSE")
 
 
 window.mainloop()
