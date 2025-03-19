@@ -27,11 +27,11 @@ t = turtle.Turtle()
 t.shape("square")
 t.up()
 t.sety(250)
-for i in range(-300, 301, 25):
+for i in range(-300, 301, 50):
     t.fillcolor("Black")
     t.setx(i)
     t.stamp()
-for i in range(-250, 301, 25):
+for i in range(-250, 301, 50):
     t.fillcolor("White")
     t.setx(i)
     t.stamp()
