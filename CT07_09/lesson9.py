@@ -47,7 +47,8 @@ t.hideturtle
 
 Sally = turtle.Turtle()
 Sally.penup()
-Sally.
+Sally.seth(90)
+Sally.shape()
 
 
 
