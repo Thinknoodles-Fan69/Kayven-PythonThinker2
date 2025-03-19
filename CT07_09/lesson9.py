@@ -73,22 +73,6 @@ Nat.write("Nat", align="center", font=("Arial", 20))
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 window.mainloop()
 
