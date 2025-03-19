@@ -98,7 +98,9 @@ while True:
         break
 
 if Winner == guess:
-    
+    print("You guessed correct")
+else:
+    print()
 
 
 window.mainloop()
