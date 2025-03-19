@@ -56,7 +56,7 @@ Kayla.write("Kayla", align="center", font=("Arial", 20))
 
 Isabella = turtle.Turtle()
 Isabella.penup()
-Isabella.seth(90)"
+Isabella.seth(90)
 Isabella.shape("turtle")
 Isabella.color("red")
 Isabella.goto(0, -250)
