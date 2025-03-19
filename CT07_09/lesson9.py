@@ -19,4 +19,4 @@ else:
 
 
 
-window = t
+window = turtle.Screen()
