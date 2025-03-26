@@ -25,7 +25,7 @@ def whatsappMe(number):
 
 whatsappMe(input("What is your phone number"))
 
-print(link)
+print(number)
 
 
 
