@@ -46,7 +46,7 @@ import random
 
 
 number1 = []
-shakes = input("How many times you wanna shake the hat?")
+shakes = input("How many times you wanna shake the hat? :")
 counter1 = 0
 while counter1 != 100:
     no = random.randint(1, 1000)
