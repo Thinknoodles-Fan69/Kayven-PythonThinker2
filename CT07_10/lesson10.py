@@ -7,4 +7,4 @@ two = input("Give me your second number:")
 def multiply(no1, no2):
     print(no1 * no2)
 
-multiply( i)
+multiply(one, two)
