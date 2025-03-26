@@ -17,6 +17,8 @@ def isElderly(age):
     
 if discount == True:
     print("You are eligible for an elderly discount")
+else:
+    print("You are not eligible for an elderly discount")
         
 
 
