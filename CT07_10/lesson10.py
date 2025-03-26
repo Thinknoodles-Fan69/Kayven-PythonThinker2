@@ -24,6 +24,7 @@ def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + number
 
 whatsappMe(input("What is your phone number"))
+number = 
 
 
 
