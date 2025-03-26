@@ -30,7 +30,7 @@ import random
 number = []
 counter1 = 0
 while counter1 != 100:
-    no = random.randint(80000000, 90000000)
+    no = random.randint(80000000, 99999999)
     if no not in number:
         number.append(no)
         counter1 += 1
