@@ -19,11 +19,11 @@
 # else:
 #     print("You are not eligible for an elderly discount")
         
-
+number = input("What is your phone number")
 def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + number
 
-whatsappMe(input("What is your phone number"))
+whatsappMe()
 
 print(number)
 
