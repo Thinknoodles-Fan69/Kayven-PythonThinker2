@@ -11,7 +11,7 @@
 
 age = int(input("How old are you?"))
 def isElderly(age):
-    if age > 64:
+    if age >= 65:
         return True
     
 if age == True:
