@@ -34,7 +34,7 @@ while counter1 != 100:
     if no not in number:
         number.append(no)
         counter1 += 1
+
 def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + number
-
-print(whatsappMe(number))
+    print(whatsappMe(number))
