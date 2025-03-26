@@ -20,7 +20,7 @@
 #     print("You are not eligible for an elderly discount")
         
 
-
-
+def whatsappMe(number):
+    return
 
 
