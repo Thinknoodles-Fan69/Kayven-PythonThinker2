@@ -14,8 +14,9 @@ discount = False
 def isElderly(age):
     if age >= 65:
         return discount == True
-    else:
-        b
+        
+
+
 
 
 
