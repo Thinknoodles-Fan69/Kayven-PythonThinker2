@@ -39,5 +39,5 @@ def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + str(number)
 whatsappMe(number)
 
-for i in len(number):
+for i in range(counter1):
     print(number)
