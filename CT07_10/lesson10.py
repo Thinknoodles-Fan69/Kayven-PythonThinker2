@@ -36,7 +36,7 @@ while counter1 != 100:
         counter1 += 1
 
 def whatsappMe(number):
-    return "Whatsapp me at https://wa.me/65" + number
+    return "Whatsapp me at https://wa.me/65" + str(number)
 whatsappMe(number)
 
 for i in len(number):
