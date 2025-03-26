@@ -9,7 +9,11 @@ def multiply(no1, no2):
 
 multiply(one, two)
 
-
+age = int(input("How old are you?"))
+discount = False
+def isElderly(age):
+    if age >= 65:
+        discount
 
 
 
