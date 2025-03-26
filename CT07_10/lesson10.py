@@ -5,3 +5,4 @@ ans = 0
 def multiply(no1, no2):
     print("no1 * no2")
 
+multiply()
