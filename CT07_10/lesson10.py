@@ -43,7 +43,7 @@ while counter1 != 100:
         whatsappMe(no)
 
 for numbers in number:
-    if numbers == "88278202":
+    if numbers == "6588278202":
         print("Yes")
 
 
