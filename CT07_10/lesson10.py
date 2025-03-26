@@ -1,5 +1,5 @@
 # print("Hello from lesson 10")
-
+import random
 
 # ans = 0
 # one = int(input("Give me your first number:"))
