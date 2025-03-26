@@ -56,6 +56,7 @@ while counter1 != int(shakes):
 
 
 def randgen(no):
+    print()
     print(max(no))
     print(min(no))
     print(sum(no) / len(no))
