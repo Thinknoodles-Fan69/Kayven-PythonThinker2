@@ -13,7 +13,7 @@ age = int(input("How old are you?"))
 discount = False
 def isElderly(age):
     if age >= 65:
-        discount
+        return discount 
 
 
 
