@@ -12,9 +12,9 @@
 age = int(input("How old are you?"))
 def isElderly(age):
     if age >= 65:
-        return "true"
+        return True
     
-if age == "true":
+if isElderly == True:
     print("You are eligible for an elderly discount")
 else:
     print("You are not eligible for an elderly discount")
