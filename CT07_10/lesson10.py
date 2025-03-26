@@ -56,8 +56,8 @@ while counter1 != shakes:
 
 
 def randgen(no):
-    print(max(number1))
-    print(min(number1))
-    print(sum(number1) / len(number1))
+    print(max(no))
+    print(min(no))
+    print(sum(no) / len(no))
 
 randgen(number1)
