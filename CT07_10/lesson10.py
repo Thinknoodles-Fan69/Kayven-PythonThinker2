@@ -53,3 +53,9 @@ while counter1 != shakes:
     if no not in number1:
         number1.append(no)
         counter1 += 1
+
+
+def randgen(number1):
+    print(max(number1))
+    print(min(number1))
+    print(sum(number1) / len(number1))
