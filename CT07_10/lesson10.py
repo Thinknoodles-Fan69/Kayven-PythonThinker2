@@ -28,7 +28,6 @@ import random
 
 
 number = []
-number1 = []
 counter1 = 0
 while counter1 != 100:
     no = random.randint(1, 1000)
