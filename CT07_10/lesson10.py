@@ -49,7 +49,7 @@ number1 = []
 shakes = input("How many times you wanna shake the hat? :")
 counter1 = 0
 while counter1 != shakes:
-    no = random.randint(1, 1000)
+    no = random.randint(1, 100)
     if no not in number1:
         number1.append(no)
         counter1 += 1
