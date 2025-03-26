@@ -21,6 +21,7 @@
         
 
 def whatsappMe(number):
-    return "Whatsapp me at https://wa.me/"
+    return "Whatsapp me at https://wa.me/" + number
+    
 
 
