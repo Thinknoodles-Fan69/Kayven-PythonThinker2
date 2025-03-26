@@ -28,7 +28,13 @@ import random
 
 
 number = []
-
+number1 = []
+counter1 = 0
+while counter1 != 100:
+    no = random.randint(1, 1000)
+    if no not in number1:
+        number1.append(no)
+        counter1 += 1
 def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + number
 
