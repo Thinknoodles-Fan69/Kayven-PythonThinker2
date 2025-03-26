@@ -28,23 +28,19 @@ import random
 
 
 
-def whatsappMe(number):
-    print("Whatsapp me at https://wa.me/65" + str(number))
+# def whatsappMe(number):
+#     print("Whatsapp me at https://wa.me/65" + str(number))
 
 
 
-number = []
-counter1 = 0
-while counter1 != 100:
-    no = random.randint(80000000, 90000000)
-    if no not in number:
-        number.append(no)
-        counter1 += 1
-        whatsappMe(no)
-
-for numbers in number:
-    if numbers == "6588278202":
-        print("Yes")
+# number = []
+# counter1 = 0
+# while counter1 != 100:
+#     no = random.randint(80000000, 90000000)
+#     if no not in number:
+#         number.append(no)
+#         counter1 += 1
+#         whatsappMe(no)
 
 
 
