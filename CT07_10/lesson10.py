@@ -29,8 +29,8 @@ import random
 
 
 def whatsappMe(number):
-    return "Whatsapp me at https://wa.me/65" + str(number)
-whatsappMe(number)
+    print("Whatsapp me at https://wa.me/65" + str(number))
+
 
 
 number = []
