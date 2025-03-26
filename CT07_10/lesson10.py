@@ -9,12 +9,12 @@
 
 # multiply(one, two)
 
-age = int(input("How old are you?"))
+
 def isElderly(age):
     if age >= 65:
         return True
     
-if isElderly == True:
+if isElderly(age = int(input("How old are you?"))):
     print("You are eligible for an elderly discount")
 else:
     print("You are not eligible for an elderly discount")
