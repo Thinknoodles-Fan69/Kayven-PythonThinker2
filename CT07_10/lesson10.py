@@ -23,9 +23,7 @@ number = input("What is your phone number")
 def whatsappMe(number):
     return "Whatsapp me at https://wa.me/65" + number
 
-whatsappMe(number)
-
-print(number)
+print(whatsappMe(number))
 
 
 
