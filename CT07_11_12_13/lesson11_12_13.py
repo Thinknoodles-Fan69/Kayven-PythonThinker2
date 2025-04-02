@@ -69,6 +69,7 @@ while True:
             row = move // 3
             col = move % 3
             print(f"row = {row}, col = {col}")
+            # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
     else:
