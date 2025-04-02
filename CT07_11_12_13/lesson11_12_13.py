@@ -26,12 +26,10 @@ import random
 
 
 # tic tac toe
-
-board = []
-for i in range(3):
-    row = []
-    for a in range(3):
-        row.append(" ")
-    board.append(row)
-
-print(board)
+def initboard():
+    board = []
+    for i in range(3):
+        row = []
+        for a in range(3):
+            row.append(" ")
+            board.append(row)
