@@ -65,6 +65,7 @@ while True:
         move = int(move)
         # pass
         if move >= 1 and move <= 9:
+            
             pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
