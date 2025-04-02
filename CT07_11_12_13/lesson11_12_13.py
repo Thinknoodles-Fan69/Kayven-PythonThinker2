@@ -5,10 +5,10 @@ import random
 
 
 def diceGuess(guess):
-    correct = False
+    guess = False
     winningNo = random.randint(1, 6)
     if guess == winningNo:
-        correct = True
+        print
     else:
         correct = False
 
