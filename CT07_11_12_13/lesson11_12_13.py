@@ -28,5 +28,7 @@ import random
 # tic tac toe
 
 board = []
-for i in range():
-    row = 
+for i in range(3):
+    row = []
+    for a in range(3):
+        row.append
