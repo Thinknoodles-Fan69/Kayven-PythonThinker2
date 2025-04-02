@@ -44,4 +44,4 @@ board = initboard()
 for row in board:
 
     for col in row:
-        print(f"[ (col) ]")
+        print(f"[ {col} ]")
