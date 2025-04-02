@@ -63,7 +63,7 @@ if move.isdigit():
     if move >= 1 and move <= 9:
         pass
     else:
-        print("Eh")
+        print("Eh! Siao Dabor ")
 else:
     print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
 
