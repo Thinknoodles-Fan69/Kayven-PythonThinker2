@@ -56,3 +56,9 @@ board = initboard()
 printboard(board)
 
 move = input("Enter a number from 1, 9: ")
+
+
+if move.isdigit():
+    pass
+else:
+    print("")
