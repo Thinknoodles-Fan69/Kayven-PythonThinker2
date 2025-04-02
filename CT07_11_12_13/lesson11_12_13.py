@@ -50,4 +50,5 @@ for row in board:
 
         if count % 3 == 0:
             print("|")
+            print("-" * 13)
         count += 1
