@@ -31,9 +31,10 @@ def initboard():
 
     for i in range(3):
         row = []
-        
+
         for a in range(3):
             row.append(" ")
-            board.append(row)
+            
+        board.append(row)
 
     return board
