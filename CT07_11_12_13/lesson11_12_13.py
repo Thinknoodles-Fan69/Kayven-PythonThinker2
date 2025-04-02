@@ -53,3 +53,4 @@ def printboard(argboard):
 
 
 board = initboard()
+printboard(board)
