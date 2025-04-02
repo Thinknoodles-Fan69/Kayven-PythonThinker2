@@ -8,7 +8,7 @@ def diceGuess(guess):
     guess = False
     winningNo = random.randint(1, 6)
     if guess == winningNo:
-        print
+        print("You got the correct number ")
     else:
         correct = False
 
