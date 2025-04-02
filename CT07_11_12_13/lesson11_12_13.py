@@ -65,6 +65,7 @@ while True:
         move = int(move)
         # pass
         if move >= 1 and move <= 9:
+            move = move - 1
             
             pass
         else:
