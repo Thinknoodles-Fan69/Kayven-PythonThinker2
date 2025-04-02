@@ -61,4 +61,4 @@ move = input("Enter a number from 1, 9: ")
 if move.isdigit():
     pass
 else:
-    print("Eh! Siao Zabor ples pult a legit num")
+    print("Eh! Siao Zabor ples pult a legit numble lerh. I")
