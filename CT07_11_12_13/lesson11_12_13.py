@@ -32,4 +32,6 @@ for i in range(3):
     row = []
     for a in range(3):
         row.append("")
-    board.append()
+    board.append(row)
+
+print(board)
