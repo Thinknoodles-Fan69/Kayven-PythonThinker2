@@ -41,14 +41,14 @@ def initboard():
 
 board = initboard()
 
+def printboard(argboard):
+    count = 1
+    for row in argboard:
 
-count = 1
-for row in board:
+        for col in row:
+            print(f"| {count} ", end="")
 
-    for col in row:
-        print(f"| {count} ", end="")
-
-        if count % 3 == 0:
-            print("|")
-            print("-" * 13)
-        count += 1
+            if count % 3 == 0:
+                print("|")
+                print("-" * 13)
+            count += 1
