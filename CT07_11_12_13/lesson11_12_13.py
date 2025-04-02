@@ -66,7 +66,7 @@ while True:
         # pass
         if move >= 1 and move <= 9:
             move = move - 1
-            
+            row 
             pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
