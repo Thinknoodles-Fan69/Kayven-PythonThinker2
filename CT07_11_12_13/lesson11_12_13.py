@@ -12,7 +12,4 @@ def diceGuess(guess):
         print("Wah! you got it wrong!")
 
 
-if diceGuess(input("Give me a number: ")):
-    print("You got the correct number ")
-else:
-    print("Wah! you got it wrong!")
+diceGuess(input("Give me a number: "))
