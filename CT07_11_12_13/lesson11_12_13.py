@@ -34,7 +34,9 @@ def initboard():
 
         for a in range(3):
             row.append(" ")
-            
+
         board.append(row)
 
     return board
+
+board = initboard
