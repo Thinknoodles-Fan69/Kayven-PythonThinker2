@@ -59,7 +59,7 @@ move = input("Enter a number from 1, 9: ")
 
 
 if move.isdigit():
-    pass
+    # pass
     if move >= 1 and move <= 9:
         pass
     else:
