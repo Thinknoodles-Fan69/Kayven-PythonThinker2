@@ -8,3 +8,6 @@ def diceGuess(guess):
         correct = True
     else:
         correct = False
+
+if correct == True:
+    print("You got the correct number cao ")
