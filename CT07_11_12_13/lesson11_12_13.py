@@ -55,6 +55,9 @@ def printboard(argboard):
 board = initboard()
 printboard(board)
 
+
+
+
 move = input("Enter a number from 1, 9: ")
 
 
