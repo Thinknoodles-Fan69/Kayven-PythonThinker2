@@ -39,8 +39,6 @@ def initboard():
 
     return board
 
-board = initboard()
-
 def printboard(argboard):
     count = 1
     for row in argboard:
@@ -52,3 +50,6 @@ def printboard(argboard):
                 print("|")
                 print("-" * 13)
             count += 1
+
+
+board = initboard()
