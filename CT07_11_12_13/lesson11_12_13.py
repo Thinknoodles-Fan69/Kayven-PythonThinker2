@@ -25,3 +25,6 @@ import random
 
 
 
+# tic tac toe
+
+board = []
