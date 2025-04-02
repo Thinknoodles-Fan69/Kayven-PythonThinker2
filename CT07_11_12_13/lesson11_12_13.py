@@ -41,3 +41,7 @@ def initboard():
 
 board = initboard()
 
+for row in board:
+
+    for col in row:
+        print(col)
