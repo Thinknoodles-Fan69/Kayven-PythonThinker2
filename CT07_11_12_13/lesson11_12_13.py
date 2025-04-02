@@ -13,4 +13,4 @@ def diceGuess(guess):
 if correct == True:
     print("You got the correct number siao zabor")
 else:
-    print("Wah! ")
+    print("Wah! siao zabor you got it wrong!")
