@@ -58,16 +58,16 @@ printboard(board)
 
 
 while True:
-move = input("Enter a number from 1, 9: ")
+    move = input("Enter a number from 1, 9: ")
 
 
-if move.isdigit():
-    move = int(move)
-    # pass
-    if move >= 1 and move <= 9:
-        pass
+    if move.isdigit():
+        move = int(move)
+        # pass
+        if move >= 1 and move <= 9:
+            pass
+        else:
+            print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
     else:
-        print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
-else:
-    print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
+        print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
 
