@@ -49,5 +49,5 @@ for row in board:
         print(f"| {count} ", end="")
 
         if count % 3 == 0:
-            print()
+            print("|")
         count += 1
