@@ -61,7 +61,9 @@ move = input("Enter a number from 1, 9: ")
 if move.isdigit():
     pass
     if move >= 1 and move <= 9:
-        
+        pass
+    else:
+        print("Eh")
 else:
     print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
 
