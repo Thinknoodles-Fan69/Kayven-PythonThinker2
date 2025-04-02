@@ -31,4 +31,5 @@ board = []
 for i in range(3):
     row = []
     for a in range(3):
-        row.append
+        row.append("")
+    board.append()
