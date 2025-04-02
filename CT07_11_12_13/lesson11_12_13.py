@@ -2,4 +2,9 @@
 import random
 
 def diceGuess(guess):
-    
+    correct = False
+    winningNo = random.randint(1, 6)
+    if guess == winningNo:
+        correct = True
+    else:
+        correct = False
