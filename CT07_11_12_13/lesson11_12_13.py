@@ -12,8 +12,8 @@ def diceGuess(guess):
     else:
         correct = False
 
-diceGuess()
-if correct == True:
+
+if diceGuess():
     print("You got the correct number ")
 else:
     print("Wah! you got it wrong!")
