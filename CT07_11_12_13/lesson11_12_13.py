@@ -72,7 +72,8 @@ while True:
 
 
             if board[row][col] == " ":
-                board[row][col]
+                board[row][col] = "x"
+                
             # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
