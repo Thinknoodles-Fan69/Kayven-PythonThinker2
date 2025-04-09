@@ -137,8 +137,8 @@ while True:
         print(f"Player {currentplayer} wins!")
         printboard(board)
         break
-
-    checktie(board)
+    elif checktie(board):
+        print("")
 
         
 
