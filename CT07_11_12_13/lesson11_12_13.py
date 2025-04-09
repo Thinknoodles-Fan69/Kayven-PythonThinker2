@@ -134,7 +134,8 @@ while True:
             break
         
         if counter == "9":
-            
-        counter += 1
+            print("It is a draw")
+        else:
+            counter += 1
 
     
