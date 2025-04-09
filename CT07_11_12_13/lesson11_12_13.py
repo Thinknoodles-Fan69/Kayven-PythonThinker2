@@ -99,6 +99,7 @@ def getcurrentplayer(player):
 
 
 board = initboard()
+player = emp
 
 while True:
     printboard(board)
