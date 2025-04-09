@@ -118,6 +118,7 @@ def checkwin(argboard):
 
 board = initboard()
 currentplayer = " "
+
 while True:
     printboard(board)
 
