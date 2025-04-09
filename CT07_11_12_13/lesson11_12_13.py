@@ -138,7 +138,7 @@ while True:
         printboard(board)
         break
 
-    checktie()
+    checktie(board)
 
         
 
