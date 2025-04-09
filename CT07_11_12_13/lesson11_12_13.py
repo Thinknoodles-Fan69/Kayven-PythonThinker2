@@ -75,6 +75,9 @@ while True:
                 board[row][col] = "x"
             else:
                 print(f"{move+1} is already taken. Choose another please")
+
+
+                
             # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
