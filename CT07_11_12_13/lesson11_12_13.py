@@ -96,7 +96,7 @@ def getcurrentplayer(player):
 
 def checkwin(argboard):
     win = [
-        []
+        [argboard[0][1]]
     ]
 
 
