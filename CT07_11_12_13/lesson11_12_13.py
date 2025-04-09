@@ -56,7 +56,7 @@ def printboard(argboard):
             count += 1
 
 
-def get_player_move(argboard)(playerNOW):
+def get_player_move(argboard, playerNOW):
     while True:
         move = input("Enter a number from 1, 9: ")
 
