@@ -118,24 +118,18 @@ def checkwin(argboard):
 
 board = initboard()
 currentplayer = " "
-counter = 1
 while True:
-    if counter != 10:
+    printboard(board)
+
+    currentplayer = getcurrentplayer(currentplayer)
+
+    board = get_player_move(board, currentplayer)
+
+    if checkwin(board):
+        print("*"*20)
+        print(f"Player {currentplayer} wins!")
         printboard(board)
-
-        currentplayer = getcurrentplayer(currentplayer)
-
-        board = get_player_move(board, currentplayer)
-
-        if checkwin(board):
-            print("*"*20)
-            print(f"Player {currentplayer} wins!")
-            printboard(board)
-            break
+        break
         
-        if counter == "10":
-            print("It is a draw")
-        else:
-            counter += 1
 
     
