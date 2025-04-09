@@ -127,4 +127,4 @@ while True:
     board = get_player_move(board, currentplayer)
 
     if checkwin(board):
-        print(f"Player {currentplayer}")
+        print(f"Player {currentplayer} wins the game")
