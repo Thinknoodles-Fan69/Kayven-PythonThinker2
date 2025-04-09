@@ -98,6 +98,7 @@ def getcurrentplayer(player):
 
 
 
+
 board = initboard()
 currentplayer = " "
 
