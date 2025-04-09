@@ -69,11 +69,15 @@ while True:
             row = move // 3
             col = move % 3
             print(f"row = {row}, col = {col}")
+
+
+            if board[row][col] == " ":
+                board[row][col]
             # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
     else:
         print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
 
-        
+
 
