@@ -133,7 +133,7 @@ while True:
             printboard(board)
             break
         
-        if counter == "9":
+        if counter == "10":
             print("It is a draw")
         else:
             counter += 1
