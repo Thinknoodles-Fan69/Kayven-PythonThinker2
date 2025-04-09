@@ -72,6 +72,7 @@ def get_player_move(argboard):
                     break
                 else:
                     print(f"{move+1} is already taken. Choose another please")
+                    
 
 
                 # pass
