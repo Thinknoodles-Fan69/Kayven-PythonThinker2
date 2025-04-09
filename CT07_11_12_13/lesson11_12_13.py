@@ -104,6 +104,6 @@ currentplayer = " "
 while True:
     printboard(board)
 
-    currentplayer
+    currentplayer = getcurrentplayer(player)
 
     board = get_player_move(board)
