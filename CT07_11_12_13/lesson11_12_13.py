@@ -112,8 +112,7 @@ def checkwin(argboard):
     for condition in win:
         if condition[0] == condition[1] == condition[2] and condition[0] != " ":
             return True
-        else:
-            return
+    return False
 
 
 
