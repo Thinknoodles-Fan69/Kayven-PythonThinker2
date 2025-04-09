@@ -107,3 +107,4 @@ while True:
     currentplayer = getcurrentplayer(currentplayer)
 
     board = get_player_move(board)
+    
