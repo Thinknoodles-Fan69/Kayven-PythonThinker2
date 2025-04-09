@@ -86,6 +86,6 @@ def get_player_move(argboard):
                 print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
         else:
             print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
-
+    return argboard
 
 
