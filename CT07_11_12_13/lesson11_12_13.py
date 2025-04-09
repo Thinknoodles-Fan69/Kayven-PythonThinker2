@@ -68,7 +68,7 @@ def get_player_move(argboard):
 
 
                 if argboard[row][col] == " ":
-                    argboard[row][col] = "X"
+                    argboard[row][col] = argboard[row][col] + "X"
                     break
                 else:
                     print(f"{move+1} is already taken. Choose another please")
