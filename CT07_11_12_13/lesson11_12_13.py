@@ -120,7 +120,7 @@ board = initboard()
 currentplayer = " "
 counter = 1
 while True:
-    if counter != 9:
+    if counter != 10:
         printboard(board)
 
         currentplayer = getcurrentplayer(currentplayer)
