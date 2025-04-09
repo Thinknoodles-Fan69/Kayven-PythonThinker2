@@ -56,7 +56,10 @@ board = initboard()
 printboard(board)
 
 
-def get_player_move():
+
+
+
+def get_player_move(argboard):
     while True:
         move = input("Enter a number from 1, 9: ")
 
