@@ -74,7 +74,7 @@ while True:
             if board[row][col] == " ":
                 board[row][col] = "x"
             else:
-                print(f"(move+1)")
+                print(F"(move+1)")
             # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
