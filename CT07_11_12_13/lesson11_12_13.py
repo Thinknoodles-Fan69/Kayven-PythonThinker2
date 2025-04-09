@@ -132,6 +132,9 @@ while True:
             print(f"Player {currentplayer} wins!")
             printboard(board)
             break
-    
-        counter += 1
         
+        if counter == "9":
+            
+        counter += 1
+
+    
