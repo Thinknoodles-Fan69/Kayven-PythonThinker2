@@ -77,7 +77,6 @@ while True:
                 print(f"{move+1} is already taken. Choose another please")
 
 
-                f
             # pass
         else:
             print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
