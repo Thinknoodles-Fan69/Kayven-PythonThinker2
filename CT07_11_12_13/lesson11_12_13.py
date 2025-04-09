@@ -74,8 +74,8 @@ def get_player_move(argboard):
                 print(f"row = {row}, col = {col}")
 
 
-                if board[row][col] == " ":
-                    board[row][col] = "x"
+                if argboard[row][col] == " ":
+                    argboard[row][col] = "x"
                     break
                 else:
                     print(f"{move+1} is already taken. Choose another please")
