@@ -45,8 +45,8 @@ def printboard(argboard):
 
         for col in row:
 
-            
-            print(f"| {count} ", end="")
+            if argboard[row][col] == " ":
+                print(f"| {count} ", end="")
 
             if count % 3 == 0:
                 print("|")
