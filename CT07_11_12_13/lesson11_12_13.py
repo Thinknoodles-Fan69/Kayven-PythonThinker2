@@ -73,6 +73,7 @@ while True:
 
             if board[row][col] == " ":
                 board[row][col] = "x"
+                break
             else:
                 print(f"{move+1} is already taken. Choose another please")
 
