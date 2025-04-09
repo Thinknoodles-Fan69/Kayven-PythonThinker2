@@ -128,4 +128,5 @@ while True:
 
     if checkwin(board):
         print(f"Player {currentplayer} wins!")
-        printboardC
+        printboard(board)
+        break
