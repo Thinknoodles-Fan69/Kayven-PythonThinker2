@@ -56,33 +56,33 @@ board = initboard()
 printboard(board)
 
 
-
-while True:
-    move = input("Enter a number from 1, 9: ")
-
-
-    if move.isdigit():
-        move = int(move)
-        # pass
-        if move >= 1 and move <= 9:
-            move = move - 1
-            row = move // 3
-            col = move % 3
-            print(f"row = {row}, col = {col}")
+def get_player_move():
+    while True:
+        move = input("Enter a number from 1, 9: ")
 
 
-            if board[row][col] == " ":
-                board[row][col] = "x"
-                break
-            else:
-                print(f"{move+1} is already taken. Choose another please")
-
-
+        if move.isdigit():
+            move = int(move)
             # pass
+            if move >= 1 and move <= 9:
+                move = move - 1
+                row = move // 3
+                col = move % 3
+                print(f"row = {row}, col = {col}")
+
+
+                if board[row][col] == " ":
+                    board[row][col] = "x"
+                    break
+                else:
+                    print(f"{move+1} is already taken. Choose another please")
+
+
+                # pass
+            else:
+                print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
         else:
-            print("Eh! Siao Dabor u butter pult an legit numble lerh. Isf u don then i suport adove hiter.")
-    else:
-        print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
+            print("Eh! Siao Zabor ples pult a legit numble lerh. Isf u don then i cal polis and sgsecure.")
 
 
 
