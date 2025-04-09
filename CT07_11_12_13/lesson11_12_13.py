@@ -118,7 +118,9 @@ def checktie(argboard):
     for row in argboard:
         for cell in row:
             if cell == " ":
-                
+                return False
+    
+    return True
 
 board = initboard()
 currentplayer = " "
