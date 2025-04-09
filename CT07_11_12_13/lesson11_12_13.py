@@ -128,9 +128,10 @@ while True:
         board = get_player_move(board, currentplayer)
 
         if checkwin(board):
-        print("*"*20)
-        print(f"Player {currentplayer} wins!")
-        printboard(board)
-        break
+            print("*"*20)
+            print(f"Player {currentplayer} wins!")
+            printboard(board)
+            break
     
-    counter += 1
+        counter += 1
+        
