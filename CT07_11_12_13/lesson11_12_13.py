@@ -86,4 +86,4 @@ board = initboard()
 
 while True:
     printboard(board)
-    initboard = get_player_move(board)
+    board = get_player_move(board)
