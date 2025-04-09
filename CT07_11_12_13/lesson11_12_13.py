@@ -127,6 +127,7 @@ while True:
     board = get_player_move(board, currentplayer)
 
     if checkwin(board):
+        print()
         print(f"Player {currentplayer} wins!")
         printboard(board)
         break
