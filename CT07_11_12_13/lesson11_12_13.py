@@ -44,6 +44,8 @@ def printboard(argboard):
     for row in argboard:
 
         for col in row:
+
+            
             print(f"| {count} ", end="")
 
             if count % 3 == 0:
@@ -72,7 +74,7 @@ def get_player_move(argboard):
                     break
                 else:
                     print(f"{move+1} is already taken. Choose another please")
-                    
+
 
 
                 # pass
