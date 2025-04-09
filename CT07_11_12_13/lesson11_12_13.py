@@ -58,7 +58,7 @@ def printboard(argboard):
 
 def get_player_move(argboard, playerNOW):
     while True:
-        move = input(f"{playerNOW}Enter a number from 1, 9: ")
+        move = input(f"{playerNOW}, Ples enter a number from 1, 9: ")
 
 
         if move.isdigit():
