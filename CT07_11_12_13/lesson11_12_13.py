@@ -87,6 +87,9 @@ def get_player_move(argboard):
     return argboard
 
 
+def getcurrentplayer(player):
+    if player == "X":
+        
 
 
 
