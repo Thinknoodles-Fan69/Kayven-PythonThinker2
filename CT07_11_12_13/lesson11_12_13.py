@@ -118,16 +118,19 @@ def checkwin(argboard):
 
 board = initboard()
 currentplayer = " "
-
+counter = 1
 while True:
-    printboard(board)
+    if counter != 9:
+        printboard(board)
 
-    currentplayer = getcurrentplayer(currentplayer)
+        currentplayer = getcurrentplayer(currentplayer)
 
-    board = get_player_move(board, currentplayer)
+        board = get_player_move(board, currentplayer)
 
-    if checkwin(board):
+        if checkwin(board):
         print("*"*20)
         print(f"Player {currentplayer} wins!")
         printboard(board)
         break
+    
+    counter += 1
