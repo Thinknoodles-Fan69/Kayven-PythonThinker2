@@ -283,7 +283,7 @@ def get_aimove(board, currplayer):
         return board
     
     # 4. If a corner is empty == take a corner.
-    
+
 
 
     
@@ -298,7 +298,7 @@ while True:
     if currentplayer == "X":
         board = get_player_move(board, currentplayer)
     else:
-        board = get_Aimove(board, currentplayer)
+        board = get_aimove(board, currentplayer)
 
     if checkwin(board):
         print("*"*20)
