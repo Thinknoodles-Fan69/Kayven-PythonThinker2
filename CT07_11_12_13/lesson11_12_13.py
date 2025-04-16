@@ -291,6 +291,7 @@ def get_aimove(board, currplayer):
         if board[i][j] == " ":
             board[i][j] = currplayer
             return board
+        
 
 
 
