@@ -254,7 +254,7 @@ while True:
     if currentplayer == "X":
         board = get_player_move(board, currentplayer)
     else:
-        board = get_
+        board = get_Aimove(board, )
 
     if checkwin(board):
         print("*"*20)
