@@ -275,7 +275,9 @@ def get_aimove(board, currplayer):
                     board[i][j] = currplayer # Ai will make a move here
                     return board
                 else:
-                    board[i][j] == " " #
+                    board[i][j] == " " #Ai will reset for the next value
+
+    
 
 
     
