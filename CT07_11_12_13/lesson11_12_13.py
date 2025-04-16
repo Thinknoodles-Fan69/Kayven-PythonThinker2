@@ -250,12 +250,12 @@ def checktie(argboard):
 
 
 
-def get_aimove(board, currplayer):
+def get_aimove(argboard, currplayer):
     # 1. Check if AI can win in the next move == take that move.
     for i in range(3):
         for j in range(3):
-            if board[i][j] == " ":
-                board[i][j] == currplayer # This will be AI value.
+            if argboard[i][j] == " ":
+                argboard[i][j] == currplayer # This will be AI value.
 
                 if checkwin(board):
                     print("inside ai move 111")
