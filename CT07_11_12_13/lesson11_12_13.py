@@ -296,6 +296,8 @@ def get_aimove(board, currplayer):
             board[i][j] = currplayer
             return board
         
+    
+        
 
 
 
