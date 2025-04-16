@@ -272,10 +272,10 @@ def get_aimove(argboard, currplayer):
 
                 if checkwin(board):
                     print("inside ai move 222")
-                    board[i][j] = currplayer # Ai will make a move here
-                    return board
+                    argboard[i][j] = currplayer # Ai will make a move here
+                    return argboard
                 else:
-                    board[i][j] == " " #Ai will reset for the next value
+                    argboard[i][j] == " " #Ai will reset for the next value
 
     # 3. If center is empty == take center.
     if board[1][1] == " ":
