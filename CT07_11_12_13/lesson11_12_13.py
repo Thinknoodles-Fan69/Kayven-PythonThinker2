@@ -301,7 +301,7 @@ while True:
         print("lalala")
     else:
         print("bababa")
-        board = get_aimove(board, currplayer)
+        board = get_aimove(board, currentplayer)
 
     if checkwin(board):
         print("*"*20)
