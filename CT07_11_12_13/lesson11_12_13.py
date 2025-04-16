@@ -25,7 +25,7 @@ import random
 
 
 
-############## tic tac toe WITHOUT AI(TWO PLAYER GAME)####################
+################################## tic tac toe WITHOUT AI(TWO PLAYER GAME)###########################################
 # def initboard():
 #     board = []
 
