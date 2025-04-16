@@ -251,6 +251,13 @@ def checktie(argboard):
 
 
 
+
+def get_aimove(board, currplayer):
+    # 1. Check if AI can win in the next move == take that move.
+    for i in range(3):
+        for j in range(3):
+            board
+    
 board = initboard()
 currentplayer = " "
 
