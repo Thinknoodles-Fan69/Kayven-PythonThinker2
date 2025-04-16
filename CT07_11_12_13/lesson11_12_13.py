@@ -266,7 +266,10 @@ def get_aimove(board, currplayer):
 
     # 2. Check if player can win in next move == block it.
     opponent = "X" # which means you
-    
+    for i in range(3):
+        for j in range(3):
+            if board[i][j] == " ":
+                board
     
 board = initboard()
 currentplayer = " "
