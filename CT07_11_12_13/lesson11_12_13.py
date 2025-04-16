@@ -297,6 +297,7 @@ while True:
         board = get_player_move(board, currentplayer)
         print("lalala")
     else:
+        print("bababa")
         board = get_aimove(board, currentplayer)
 
     if checkwin(board):
