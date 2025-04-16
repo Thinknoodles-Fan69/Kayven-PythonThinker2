@@ -279,6 +279,7 @@ def get_aimove(board, currplayer):
 
     # 3. If center is empty == take center.
     if board[1][1] == " ":
+        print("inside ai move 333")
         board[1][1] = currplayer # computer will move to center
         return board
     
