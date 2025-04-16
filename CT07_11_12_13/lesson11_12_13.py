@@ -289,7 +289,8 @@ def get_aimove(board, currplayer):
 
     for i, j in corners:
         if board[i, j] == " ":
-            board
+            board[i][j] = currplayer
+            
 
 
 
