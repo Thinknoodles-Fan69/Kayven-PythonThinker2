@@ -286,7 +286,10 @@ def get_aimove(board, currplayer):
     # 4. If a corner is empty == take a corner.
     corners = [[0,0], [0,2], [2,0], [2,2]]
     random.shuffle(corners)
-    
+
+    for i, j in corners:
+        if board[i, j] == " ":
+            board
 
 
 
