@@ -272,7 +272,8 @@ def get_aimove(board, currplayer):
                 board[i][j] = opponent # simulate player maving a move
 
                 if checkwin(board):
-                    board[i][j]
+                    board[i][j] = currplayer 
+
     
 board = initboard()
 currentplayer = " "
