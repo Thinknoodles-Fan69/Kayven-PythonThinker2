@@ -25,7 +25,7 @@ import random
 
 
 
-# tic tac toe
+# tic tac toe WITHOUT AI
 def initboard():
     board = []
 
@@ -144,6 +144,6 @@ while True:
         break
 
         
-        
+
 
     
