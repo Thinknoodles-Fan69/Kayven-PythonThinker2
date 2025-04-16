@@ -297,7 +297,10 @@ def get_aimove(board, currplayer):
             return board
         
     # 5. Else == take any available space.
-    
+    for i in range(3):
+        for j in range(3):
+            if board[i][j] == " ":
+                board
         
 
 
