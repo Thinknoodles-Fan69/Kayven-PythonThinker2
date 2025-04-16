@@ -271,6 +271,7 @@ def get_aimove(board, currplayer):
                 board[i][j] = opponent # simulate player maving a move
 
                 if checkwin(board):
+                    print("inside ai move 222")
                     board[i][j] = currplayer # Ai will make a move here
                     return board
                 else:
