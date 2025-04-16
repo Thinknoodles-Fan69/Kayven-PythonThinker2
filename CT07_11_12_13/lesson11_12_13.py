@@ -25,7 +25,7 @@ import random
 
 
 
-# tic tac toe WITHOUT AI
+# tic tac toe WITHOUT AI(TWO PLAYER GAME)
 def initboard():
     board = []
 
@@ -144,6 +144,9 @@ while True:
         break
 
         
+
+
+
 
 
     
