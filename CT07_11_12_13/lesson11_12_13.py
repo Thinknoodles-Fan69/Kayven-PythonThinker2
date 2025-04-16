@@ -289,6 +289,7 @@ def get_aimove(board, currplayer):
 
 
 
+
     
 board = initboard()
 currentplayer = " "
