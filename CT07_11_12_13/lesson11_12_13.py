@@ -181,7 +181,6 @@ def get_player_move(argboard, playerNOW):
     while True:
         move = input(f"Player {playerNOW}, Ples enter a number from 1, 9: ")
 
-
         if move.isdigit():
             move = int(move)
             # pass
