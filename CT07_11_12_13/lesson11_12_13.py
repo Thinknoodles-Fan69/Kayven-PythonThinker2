@@ -278,7 +278,8 @@ def get_aimove(board, currplayer):
                     board[i][j] == " " #Ai will reset for the next value
 
     # 3. If center is empty == take center.
-    
+    if board[1][1] == " ":
+        
 
 
     
