@@ -261,6 +261,8 @@ def get_aimove(board, currplayer):
 
                 if checkwin(board):
                     return board
+                else:
+                    board[i][j] == " "
     
 board = initboard()
 currentplayer = " "
