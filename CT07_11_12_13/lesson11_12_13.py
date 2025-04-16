@@ -284,7 +284,8 @@ def get_aimove(board, currplayer):
         return board
     
     # 4. If a corner is empty == take a corner.
-    corners = [[0,0], [0,2], []]
+    corners = [[0,0], [0,2], [2,0], [2,2]]
+    
 
 
 
