@@ -288,7 +288,7 @@ def get_aimove(board, currplayer):
     random.shuffle(corners)
 
     for i, j in corners:
-        if board[i, j] == " ":
+        if board[i][j] == " ":
             board[i][j] = currplayer
             return board
 
