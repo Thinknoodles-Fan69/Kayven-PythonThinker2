@@ -296,6 +296,7 @@ def get_aimove(board, currplayer):
             board[i][j] = currplayer
             return board
         
+    # 5. Else == take any available space.
     
         
 
