@@ -279,7 +279,7 @@ def get_aimove(board, currplayer):
 
     # 3. If center is empty == take center.
     if board[1][1] == " ":
-        
+        board[1][1] = currplayer
 
 
     
