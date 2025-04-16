@@ -282,6 +282,7 @@ def get_aimove(board, currplayer):
         board[1][1] = currplayer # computer will move to center
         return board
     
+    # 4. If a corner is empty == take a corner.
 
 
     
