@@ -250,38 +250,38 @@ def checktie(argboard):
 
 
 
-def get_aimove(argboard, currplayer):
+def get_aimove(board, currplayer):
     # 1. Check if AI can win in the next move == take that move.
     for i in range(3):
         for j in range(3):
-            if argboard[i][j] == " ":
-                argboard[i][j] == currplayer # This will be AI value.
+            if board[i][j] == " ":
+                board[i][j] == currplayer # This will be AI value.
 
                 if checkwin(board):
                     print("inside ai move 111")
-                    return argboard
+                    return board
                 else:
-                    argboard[i][j] == " "
+                    board[i][j] == " "
 
     # 2. Check if player can win in next move == block it.
     opponent = "X" # which means you
     for i in range(3):
         for j in range(3):
-            if argboard[i][j] == " ":
-                argboard[i][j] = opponent # simulate player maving a move
+            if board[i][j] == " ":
+                board[i][j] = opponent # simulate player maving a move
 
                 if checkwin(board):
                     print("inside ai move 222")
-                    argboard[i][j] = currplayer # Ai will make a move here
-                    return argboard
+                    board[i][j] = currplayer # Ai will make a move here
+                    return board
                 else:
-                    argboard[i][j] == " " #Ai will reset for the next value
+                    board[i][j] == " " #Ai will reset for the next value
 
     # 3. If center is empty == take center.
-    if argboard[1][1] == " ":
+    if board[1][1] == " ":
         print("inside ai move 333")
-        argboard[1][1] = currplayer # computer will move to center
-        return argboard
+        board[1][1] = currplayer # computer will move to center
+        return board
     
     # 4. If a corner is empty == take a corner.
 
