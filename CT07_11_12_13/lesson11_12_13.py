@@ -146,7 +146,7 @@ while True:
         
 
 
-# tic tac toe WITH AI 
+# tic tac toe WITH AI (ONE PLAYER GAME)
 
 
     
