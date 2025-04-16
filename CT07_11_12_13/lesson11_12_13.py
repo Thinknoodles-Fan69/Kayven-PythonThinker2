@@ -258,6 +258,7 @@ def get_aimove(board, currplayer):
                 board[i][j] == currplayer # This will be AI value.
 
                 if checkwin(board):
+                    print("inside ai move 111")
                     return board
                 else:
                     board[i][j] == " "
