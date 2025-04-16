@@ -259,16 +259,16 @@ def get_aimove(argboard, currplayer):
 
                 if checkwin(board):
                     print("inside ai move 111")
-                    return board
+                    return argboard
                 else:
-                    board[i][j] == " "
+                    argboard[i][j] == " "
 
     # 2. Check if player can win in next move == block it.
     opponent = "X" # which means you
     for i in range(3):
         for j in range(3):
-            if board[i][j] == " ":
-                board[i][j] = opponent # simulate player maving a move
+            if argboard[i][j] == " ":
+                argboard[i][j] = opponent # simulate player maving a move
 
                 if checkwin(board):
                     print("inside ai move 222")
