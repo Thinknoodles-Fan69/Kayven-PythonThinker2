@@ -252,7 +252,7 @@ def checktie(argboard):
 
 
 def get_aimove(board, currplayer):
-    print("AI is thinking")
+    print("AI is thinking............................................................................................................................................................................................................................................................................")
     time.sleep(random.randint(1,3))
 
     # 1. Check if AI can win in the next move == take that move.
