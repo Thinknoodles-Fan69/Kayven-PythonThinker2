@@ -257,7 +257,8 @@ def get_aimove(board, currplayer):
     for i in range(3):
         for j in range(3):
             if board[i][j] == " ":
-                board[i][j] == currplayer 
+                board[i][j] == currplayer # This will be AI value.
+                
     
 board = initboard()
 currentplayer = " "
