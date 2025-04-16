@@ -259,13 +259,13 @@ def get_aimove(board, currplayer):
     for i in range(3):
         for j in range(3):
             if board[i][j] == " ":
-                board[i][j] == currplayer # This will be AI value.
+                board[i][j] = currplayer # This will be AI value.
 
                 if checkwin(board):
                     print("inside ai move 111")
                     return board
                 else:
-                    board[i][j] == " "
+                    board[i][j] = " "
 
     # 2. Check if player can win in next move == block it.
     opponent = "X" # which means you
