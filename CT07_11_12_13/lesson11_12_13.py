@@ -278,10 +278,10 @@ def get_aimove(argboard, currplayer):
                     argboard[i][j] == " " #Ai will reset for the next value
 
     # 3. If center is empty == take center.
-    if board[1][1] == " ":
+    if argboard[1][1] == " ":
         print("inside ai move 333")
-        board[1][1] = currplayer # computer will move to center
-        return board
+        argboard[1][1] = currplayer # computer will move to center
+        return argboard
     
     # 4. If a corner is empty == take a corner.
 
