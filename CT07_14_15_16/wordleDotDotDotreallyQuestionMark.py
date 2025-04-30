@@ -26,3 +26,4 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
         wordlist = contents.split(",")
 
+        
