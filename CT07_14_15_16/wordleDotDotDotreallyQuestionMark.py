@@ -30,9 +30,9 @@ def getword(wordlist):
                                 else:
                                         print("You must type in a real world lah")
                         else:
-                                print("It must only be alphabet lah! ")
+                                print("It muts olny be alphabet lah! ")
                 else:
-                        print("It muts be an 5-letr wod! ")
+                        print("It muts be an 5-letr wrod! ")
 
 
 with open("FiveLetterWords.csv", "r") as fileobj:
