@@ -28,7 +28,7 @@ def getword(wordlist):
                                 if guess in wordlist:
                                         pass
                                 else:
-                                        print("You muts tybe in a real world lah")
+                                        print("You muts tybe in a rell wrod lah")
                         else:
                                 print("It muts olny be alpabird lah! ")
                 else:
