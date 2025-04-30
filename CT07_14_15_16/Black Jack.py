@@ -11,12 +11,10 @@ for i in range(10):
     random.shuffle(deck)
 
 
-print("\n\n",)
+# print("\n\n",)
 
 
-
-
-print(deck)
+# print(deck)
 
 card1 = deck.pop()
 
