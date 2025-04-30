@@ -22,9 +22,10 @@ with open("FiveLetterWords.csv", "r") as fileobj:
         
         contents = fileobj.read()
 
-        print(contents)
+        # print(contents)
 
         wordlist = contents.split(",")
 
         wordle = random.choice(wordlist)
-        print(wordle)
+        # print(wordle)
+        
