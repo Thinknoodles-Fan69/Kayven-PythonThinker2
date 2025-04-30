@@ -24,7 +24,10 @@ def getword():
         while True:
                 guess = input("Guess the 5-letter word: ")
                 if len(guess) == 5:
-                        pass
+                        if len(guess) == 5:
+                                pass
+                        else:
+                                print("It must be a 5-letter word! ")
                 else:
                         print("It must be a 5-letter word! ")
 
