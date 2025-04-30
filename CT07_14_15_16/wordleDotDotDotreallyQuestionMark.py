@@ -72,4 +72,4 @@ for chance in range(1, 7):
 
 else:
         print("Boo hoo.......You did not guess it!")
-        print("")
+        print(f"The actual")
