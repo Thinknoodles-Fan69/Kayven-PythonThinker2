@@ -27,7 +27,8 @@ def getword(wordlist):
                         if guess.isalpha:
                                 if guess in wordlist:
                                         pass
-                                
+                                else:
+                                        print()
                         else:
                                 print("It must only be alphabet lah! ")
                 else:
