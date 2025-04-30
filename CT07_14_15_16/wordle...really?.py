@@ -5,5 +5,4 @@ with open("FiveLetterWords.csv", "r") as fileobj:
         print(contents)
 
         wordlist = contents.split(",")
-        print(wordlist)
 
