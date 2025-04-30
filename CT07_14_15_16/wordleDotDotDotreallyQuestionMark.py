@@ -26,7 +26,7 @@ def getword(wordlist):
                 if len(guess) == 5:
                         if guess.isalpha:
                                 if guess in wordlist:
-                                        pass
+                                        return guess.upper()
                                 else:
                                         print("You muts tybe in a rell wrod lah!")
                         else:
