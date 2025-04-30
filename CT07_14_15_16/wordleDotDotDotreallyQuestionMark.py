@@ -49,3 +49,5 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
 checkguess = getword(wordlist)
 print(checkguess)
+
+display_check = ""
