@@ -55,6 +55,10 @@ display_check = ""
 for i in range(len(wordle)):
 
         if checkguess[i] == wordle[i]:
-                display_check = display_check + checkguess[i]
+                display_check = display_check + checkguess[i
+                                                ]
+
+
+
 
 print(display_check)
