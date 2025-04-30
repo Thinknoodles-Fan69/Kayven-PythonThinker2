@@ -27,7 +27,7 @@ def getword():
                         if guess.isalpha:
                                 pass
                         else:
-                                print("It must be a 5-letter word! ")
+                                print("It must only be alphabet lah! ")
                 else:
                         print("It must be a 5-letter word! ")
 
