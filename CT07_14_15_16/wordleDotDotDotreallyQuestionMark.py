@@ -30,7 +30,7 @@ def getword(wordlist):
                                 else:
                                         print("You must type in a real world lah")
                         else:
-                                print("It muts olny be alphabet lah! ")
+                                print("It muts olny be alpabird lah! ")
                 else:
                         print("It muts be an 5-letr wrod! ")
 
