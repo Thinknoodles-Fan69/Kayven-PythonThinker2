@@ -66,6 +66,6 @@ for chance in range(1, 7):
                 
 
 
-print(f"")
+print(f"Attempt # {chance}")
 print(f"Your Guess: {checkguess}")
 print(f"Result: {display_check}")
