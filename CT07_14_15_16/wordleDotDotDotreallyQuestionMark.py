@@ -65,7 +65,10 @@ for chance in range(1, 7):
                         display_check = display_check + "#"
                 
 
-print("")
-print(f"Attempt #: {chance}")
-print(f"Your Guess: {checkguess}")
-print(f"Result: {display_check}")
+        print("")
+        print(f"Attempt #: {chance}")
+        print(f"Your Guess: {checkguess}")
+        print(f"Result: {display_check}")
+
+else:
+        print()
