@@ -72,7 +72,8 @@ for chance in range(1, 7):
 
 
         if checkguess == wordle:
-                print("Good")
+                print("You are right!")
+                
 
 
 else:
