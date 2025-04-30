@@ -28,11 +28,11 @@ def getword(wordlist):
                                 if guess in wordlist:
                                         pass
                                 else:
-                                        print()
+                                        print("You must type in a real world lah")
                         else:
                                 print("It must only be alphabet lah! ")
                 else:
-                        print("It must be a 5-letter word! ")
+                        print("It muts be a 5-letter word! ")
 
 
 with open("FiveLetterWords.csv", "r") as fileobj:
