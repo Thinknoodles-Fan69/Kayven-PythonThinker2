@@ -67,3 +67,4 @@ for i in range(len(wordle)):
 
 
 print(f"Your Guess: {checkguess}")
+print(f" Guess: {checkguess}")
