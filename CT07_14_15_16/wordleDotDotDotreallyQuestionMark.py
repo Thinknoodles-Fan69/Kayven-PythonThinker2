@@ -45,3 +45,5 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
         wordle = random.choice(wordlist)
         # print(wordle)
+
+checkguess = getword(wordlist)
