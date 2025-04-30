@@ -47,7 +47,7 @@ with open("FiveLetterWords.csv", "r") as fileobj:
         print(wordle)
 
 for chance in range(1, 7):
-        
+        print()
         checkguess = getword(wordlist)
         # print(checkguess)
 
