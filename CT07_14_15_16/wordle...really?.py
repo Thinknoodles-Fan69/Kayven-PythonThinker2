@@ -1,4 +1,4 @@
 with open("FiveLetterWords.csv", "r") as fileobj:
 
-        content
+        contents = fileobj.read()
 
