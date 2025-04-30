@@ -26,7 +26,7 @@ def getword():
                 if len(guess) == 5:
                         pass
                 else:
-                        print("It must be a 5-")
+                        print("It must be a 5-letter word! ")
 
 
 with open("FiveLetterWords.csv", "r") as fileobj:
