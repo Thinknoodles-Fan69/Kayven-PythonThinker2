@@ -59,10 +59,11 @@ for i in range(len(wordle)):
         
         elif checkguess[i] in wordle:
                 display_check = display_check + "?"
+
         else:
                 display_check = display_check + "#"
                 
 
 
 
-print(display_check)
+print(f"display_check")
