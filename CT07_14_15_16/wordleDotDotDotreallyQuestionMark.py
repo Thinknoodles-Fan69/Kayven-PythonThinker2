@@ -70,7 +70,8 @@ for chance in range(1, 7):
         print(f"Your Guess: {checkguess}")
         print(f"Result: {display_check}")
 
+        
+
 else:
         print("Boo hoo.......You did not guess it!")
         print(f"The actual word was {wordle}")
-        
