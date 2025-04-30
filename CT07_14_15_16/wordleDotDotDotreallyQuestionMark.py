@@ -22,7 +22,7 @@ import random
 
 def getword():
         while True:
-                guess = input("Guess")
+                guess = input("Guess the word")
 
 
 with open("FiveLetterWords.csv", "r") as fileobj:
