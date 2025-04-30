@@ -48,4 +48,4 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
 
 checkguess = getword(wordlist)
-PRINT(CHECKGUESS)
+print(checkguess)
