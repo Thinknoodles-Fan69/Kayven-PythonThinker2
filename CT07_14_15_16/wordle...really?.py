@@ -4,5 +4,6 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
         print(contents)
 
-        wordlist = contents.split("<")
+        wordlist = contents.split(",")
+        print
 
