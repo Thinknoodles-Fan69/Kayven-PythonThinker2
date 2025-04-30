@@ -43,7 +43,7 @@ with open("FiveLetterWords.csv", "r") as fileobj:
 
         wordlist = contents.split(",")
 
-        wordle = random.choice(wordlist)
+        wordle = random.choice(wordlist).upper()
         print(wordle)
 
 
