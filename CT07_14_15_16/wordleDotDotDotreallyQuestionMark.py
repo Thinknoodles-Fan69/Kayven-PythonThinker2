@@ -20,12 +20,14 @@ In this assignment, your task is to create a program that works like wordle. You
 import random
 
 
-def getword():
+def getword(wordlist):
         while True:
                 guess = input("Guess the 5-letter word: ")
                 if len(guess) == 5:
                         if guess.isalpha:
-                                pass
+                                if guess in wordlist:
+                                        pass
+                                
                         else:
                                 print("It must only be alphabet lah! ")
                 else:
