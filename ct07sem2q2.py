@@ -17,10 +17,10 @@ def is_even(num):
 
    
     # Write your code to check if the number is even
-    if is_even(num):
+    if num % 2 == 0:
         return True
     else:
-        
+        return False
 
     # return True or False
 
@@ -40,6 +40,7 @@ list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
 
 ###### Task 2: COMPLETE THE FOR LOOP TO CALL is_even() here.
 for i in list1:
-    pass # remove this when you code. Ask Code Mentor if unsure.
+    if is_even(i):
+        print()
 
     # call the function to check if the number is odd or even
