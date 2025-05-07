@@ -34,6 +34,8 @@ for i in daily_sales:
         counter +=1
     else:
         Max_day = counter
+
+print(Max_day)
         
 
 
