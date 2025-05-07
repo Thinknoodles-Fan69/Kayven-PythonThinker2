@@ -35,7 +35,7 @@ for i in daily_sales:
     else:
         Max_day = counter
 
-print(f"{Max_day} August has highest sales of ${maximum}")
+
 
 
 
@@ -47,12 +47,15 @@ for i in daily_sales:
         counter +=1
     else:
         Min_day = counter
-print(f"{Min_day} August has lowest sales of ${minimum}")
+
 Total = 0
 for a in (daily_sales): 
     Total +=a
 
 Average = (round(Total / len(daily_sales)*100))/100
+
+print(f"{Max_day} August has highest sales of ${maximum}")
+print(f"{Min_day} August has lowest sales of ${minimum}")
 print(f"Average daily sales for August is ${Average}")
 
 
