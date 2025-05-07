@@ -35,10 +35,6 @@ for i in daily_sales:
     else:
         Max_day = counter
 
-
-
-
-
 counter = 1
 minimum = min(daily_sales)
 Min_day = 0
@@ -51,8 +47,8 @@ for i in daily_sales:
 Total = 0
 for a in (daily_sales): 
     Total +=a
-
 Average = (round(Total / len(daily_sales)*100))/100
+
 
 print(f"{Max_day} August has highest sales of ${maximum}")
 print(f"{Min_day} August has lowest sales of ${minimum}")
