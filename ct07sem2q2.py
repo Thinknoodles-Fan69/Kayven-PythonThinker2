@@ -18,6 +18,8 @@ def is_even(num):
    
     # Write your code to check if the number is even
     if is_even(num):
+        return True
+    else:
         
 
     # return True or False
