@@ -35,7 +35,7 @@ for i in daily_sales:
     else:
         Max_day = counter
 
-print(f"{Max_day} ")
+print(f"{Max_day} August")
 
 counter = 1
 minimum = min(daily_sales)
