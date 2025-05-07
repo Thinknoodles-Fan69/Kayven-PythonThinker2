@@ -56,9 +56,7 @@ Total = 0
 for a in (daily_sales): 
     Total +=a
 
-print(Total)
-
-
+Average = 
 
         
 
