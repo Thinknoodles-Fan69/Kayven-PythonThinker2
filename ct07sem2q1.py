@@ -56,9 +56,8 @@ Total = 0
 for a in (daily_sales): 
     Total +=a
 
-Average = round(Total / len(daily_sales))
-
-        
+Average = round(Total / len(daily_sales),100)
+print()
 
 
 
