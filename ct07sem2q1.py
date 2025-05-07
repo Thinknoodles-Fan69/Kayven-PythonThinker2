@@ -38,7 +38,7 @@ for i in daily_sales:
 print(Max_day)
 
 counter = 1
-maximum = max(daily_sales)
+minimum = max(daily_sales)
 Max_day = 0
 for i in daily_sales:
     if maximum != i:
