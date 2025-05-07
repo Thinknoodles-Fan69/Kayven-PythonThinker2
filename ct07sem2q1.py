@@ -52,6 +52,14 @@ print(f"{Min_day} August has lowest sales of ${minimum}")
 
 
 
+Total = 0
+for a in (daily_sales): 
+    Total +=a
+
+print(Total)
+
+
+
         
 
 
