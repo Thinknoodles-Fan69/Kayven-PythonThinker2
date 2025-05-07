@@ -27,9 +27,12 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
 # Write your code here.
 
 max = max(daily_sales)
-print(max)
+max_day = 0
+for i in daily_sales:
+    if max == i:
+        max
 min = min(daily_sales)
-print(min)
+
 
 
 
