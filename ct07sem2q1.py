@@ -39,12 +39,12 @@ print(Max_day)
 
 counter = 1
 minimum = max(daily_sales)
-Max_day = 0
+Min_day = 0
 for i in daily_sales:
-    if maximum != i:
+    if minimum != i:
         counter +=1
     else:
-        Max_day = counter
+        Min_day = counter
 
 print(Max_day)
         
