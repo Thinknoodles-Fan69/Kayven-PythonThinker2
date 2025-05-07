@@ -47,11 +47,7 @@ for i in daily_sales:
         counter +=1
     else:
         Min_day = counter
-
 print(f"{Min_day} August has lowest sales of ${minimum}")
-
-
-
 Total = 0
 for a in (daily_sales): 
     Total +=a
