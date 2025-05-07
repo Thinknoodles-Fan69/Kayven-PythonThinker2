@@ -57,7 +57,7 @@ for a in (daily_sales):
     Total +=a
 
 Average = (round(Total / len(daily_sales)*100))/100
-print(f"Average")
+print(f"Average daily sales for August is $6714.71")
 
 
 
