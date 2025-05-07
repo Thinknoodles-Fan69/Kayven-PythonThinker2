@@ -56,7 +56,7 @@ Total = 0
 for a in (daily_sales): 
     Total +=a
 
-Average = round(Total / len(daily_sales)*100)
+Average = round(Total / len(daily_sales)*100)/10)
 print(Average)
 
 
