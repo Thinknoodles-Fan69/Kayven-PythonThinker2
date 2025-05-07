@@ -26,10 +26,15 @@ daily_sales = [1205, 986, 1354, 10535, 15741, 11200, 800,
                8903, 1008, 1530]
 # Write your code here.
 
-
+counter = 1
 maximum = max(daily_sales)
-max_day = daily_sales[maximum]
-print(max_day)
+Max_day = 0
+for i in daily_sales:
+    if maximum != i:
+        counter +=1
+    else:
+        Max_day = counter
+        
 
 
 
