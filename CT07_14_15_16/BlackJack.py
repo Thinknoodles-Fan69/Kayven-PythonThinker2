@@ -44,7 +44,7 @@ def calculate(hand):
         cardpoint = values[card[0]]
         points += cardpoint
 
-        if card[1] == "ACE":
+        if card[0] == "ACE":
             count_aces += 1 #count how many aces you have
 
     while points > 21 and count_aces > 0:
