@@ -120,6 +120,7 @@ while True:
                 time.sleep(random.randint(1, 2))
                 banker_hand.append(deck.pop())
                 show_hand(banker_hand, "banker_show")
+                show_hand(player_hand, "player_show")
             
             if calculate(banker_hand) > 21:
                 print("Dealer busted!")
