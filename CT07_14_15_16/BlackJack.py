@@ -131,6 +131,9 @@ while True:
                 player_point = calculate(player_hand)
                 banker_point = calculate(banker_hand)
 
+                show_hand(banker_hand, "banker_show")
+                show_hand(player_hand, "player_show")
+
                 if player_point > banker_point:
                     print("Player Wins!")
                 else:
