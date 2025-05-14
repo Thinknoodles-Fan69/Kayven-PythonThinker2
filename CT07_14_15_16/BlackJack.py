@@ -124,7 +124,7 @@ while True:
             
             if calculate(banker_hand) > 21:
                 print("Dealer busted!")
-                print()
+                print("Player Wins!")
                 break
             else:
                 # check winning condition
