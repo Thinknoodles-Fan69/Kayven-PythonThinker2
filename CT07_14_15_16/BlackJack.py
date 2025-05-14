@@ -1,7 +1,7 @@
 import random
 import time
 suits = ["♣ CLUB", "♦ DIAMOND","❤ HEART","♠ SPADE"]
-ranks = ['2','3','4','5','6','7','8','9','JACK','QUEEN','KING','ACE']
+ranks = ['2','3','4','5','6','7','8','9','JACK','10','QUEEN','KING','ACE']
 
 
 values = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
