@@ -121,8 +121,7 @@ while True:
                 banker_hand.append(deck.pop())
             
             if calculate(banker_hand) > 21:
-                show_hand(banker_hand, "banker_show")
-                show_hand(player_hand, "player_show")
+                
                 print("Dealer busted!")
                 print("Player Wins!")
                 break
