@@ -120,7 +120,6 @@ while True:
             if calculate(banker_hand) > 21:
                 print("Dealer busted!")
                 show_hand(banker_hand, "banker_show")
-                break
             else:
                 # check winning condition
                 player_point = calculate(player_hand)
