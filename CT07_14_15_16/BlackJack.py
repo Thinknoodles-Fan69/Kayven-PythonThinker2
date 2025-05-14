@@ -109,6 +109,7 @@ while True:
 
             if calculate(player_hand) > 21:
                 print("You busted! Too bad!")
+                break
         elif action == "2":
             
 
