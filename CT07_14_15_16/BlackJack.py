@@ -105,7 +105,7 @@ while True:
         action = input("1 = hit, 2 = check :")
         if action == "1":
             player_hand.append(deck.pop())
-            show_hand(pl_hand, "banker_show")
+            show_hand(player_hand, "banker_show")
 
             if calculate(player_hand) > 21:
                 print("You busted! Too bad!")
