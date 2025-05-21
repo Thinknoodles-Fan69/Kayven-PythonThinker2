@@ -44,7 +44,7 @@ with open("FiveLetterWords.csv", "r") as fileobj:
         wordlist = contents.split(",")
 
         wordle = random.choice(wordlist).upper()
-        print(wordle)
+        # print(wordle)
 
 for chance in range(1, 7):
         print()
