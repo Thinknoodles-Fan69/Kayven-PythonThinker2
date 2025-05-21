@@ -41,6 +41,7 @@ def calculate(hand):
     points = 0
     count_aces = 0
 
+    # handle when get 2 ACES
     if hand[0][0] == "ACE" and hand[1][0] == "ACE":
         return 21
 
@@ -100,7 +101,6 @@ print(banker_hand)
 while True:
     show_hand(banker_hand, "banker_hide")
     show_hand(player_hand, "player_show")
-    
 
     if calculate(player_hand) == 21:
         print("You win! Black Jack!")
