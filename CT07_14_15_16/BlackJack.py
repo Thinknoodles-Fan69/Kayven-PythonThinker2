@@ -93,8 +93,8 @@ def show_hand(hand, playtype):
 
     print()
 
-# print(player_hand)
-# print(banker_hand)
+print(player_hand)
+print(banker_hand)
 
 while True:
     show_hand(banker_hand, "banker_hide")
