@@ -41,6 +41,7 @@ def calculate(hand):
     count_aces = 0
 
     if hand[0][0] == "ACE" and hand[1][0] == "ACE":
+        return 21
 
     for card in hand:
         cardpoint = values[card[0]]
