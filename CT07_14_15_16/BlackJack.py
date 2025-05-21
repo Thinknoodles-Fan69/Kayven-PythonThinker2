@@ -40,7 +40,7 @@ def calculate(hand):
     points = 0
     count_aces = 0
 
-    if hand[0][0] == "ACE" and hand[0][0] == "ACE":
+    if hand[0][0] == "ACE" and hand[0][1] == "ACE":
         return 21
 
     for card in hand:
