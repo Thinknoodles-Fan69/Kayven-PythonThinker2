@@ -34,7 +34,7 @@ card1 = deck.pop()
 
 # Draw out 2 cards
 # player_hand = [deck.pop(), deck.pop()]
-player_hand = [['ACE', '❤ HEART'], ['ACE', '♦ DIAMOND']]
+player_hand = [['ACE', '❤ HEART'], ['KING', '♦ DIAMOND']]
 banker_hand = [deck.pop(), deck.pop()]
 
 def calculate(hand):
