@@ -40,6 +40,8 @@ def calculate(hand):
     points = 0
     count_aces = 0
 
+    if hand[0][0] == "ACE" and hand[1][0] == "ACE":
+
     for card in hand:
         cardpoint = values[card[0]]
         points += cardpoint
